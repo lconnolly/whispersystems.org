@@ -4,12 +4,6 @@ layout: blog
 
 <article class="container">
 
-{% assign parts = content | split: 'XXXXX' %}
-{{ parts.first }}
-{% if parts[1] %}
-{{ parts[1] }}
-{% endif %}
-
   <ul class="social-buttons">
     <li><a href="https://twitter.com/share" class="twitter-share-button" data-via="whispersystems">Tweet</a></li>
     <li><iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.whispersystems.org{{ page.url | cgi_escape }}&amp;send=false&amp;layout=button_count&amp;width=450&amp;show_faces=false&amp;font&amp;colorscheme=light&amp;action=like&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:107px; height:21px;" allowTransparency="true"></iframe></li>

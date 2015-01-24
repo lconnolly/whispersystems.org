@@ -9,21 +9,19 @@
     <meta name="description" content="">
     
     <!-- Favorites Icon -->
-    <link rel="shortcut icon" href="{% asset_path header/favicon.ico %}" type="image/x-icon">
-    <link rel="icon" href="{% asset_path header/favicon.ico %}" type="image/x-icon">
+    <!-- <link rel="shortcut icon" href="" type="image/x-icon"> -->
+    <!-- <link rel="icon" href="" type="image/x-icon"> -->
     
     <!-- App Store Smart Banner - Signal for iOS -->
-    {% if page.smartbanner == true %}
     <meta name="apple-itunes-app" content="app-id=874139669">
-    {% endif %}
     
     <!-- Twitter Card Meta -->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@whispersystems">
     <meta name="twitter:creator" content="@moxie">
     <meta name="twitter:url" content="https://www.whispersystems.org{{ page.url }}">
-    <meta name="twitter:title" content="{{ title_parts[1] }}">
-    <meta name="twitter:description" content="{{ content_parts.first | markdownify | strip_html }}">
+    <meta name="twitter:title" content="Title">
+    <meta name="twitter:description" content="Description">
     <meta name="twitter:image" content="https://www.whispersystems.org{{ page.image }}" />
     
     <!-- Stylesheets -->
@@ -33,6 +31,22 @@
   </head>
 
   <body>
+  
+      <header class="header">
+          <div class="logo">
+              <a href="/"><img src="{% asset_path header/whispersystems.png %}"/></a>
+          </div>
+          <nav class="nav-primary">
+              <a href="#" id="mobile-nav-toggle" class="mobile-nav-toggle"><img src="{% asset_path header/nav-menu-arrow.svg %}"/></a>
+              <ul>
+                  <li><a href="/products/">Products</a></li>
+                  <li><a href="/about/">About</a></li>
+                  <li><a href="/community/">Community</a></li>
+                  <li><a href="/news/">News</a></li>
+                  <li><a href="http://support.whispersystems.org/">Support</a></li>
+              </ul>
+          </nav>
+      </header>
       
       {{ content }}
 

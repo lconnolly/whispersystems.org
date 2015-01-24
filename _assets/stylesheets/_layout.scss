@@ -2,17 +2,59 @@
 ** Global Layout
 */
 
-/* Improved Webkit Font Rendering */
-* { -webkit-font-smoothing: antialiased; }
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased; /* Improved Webkit Font Rendering */
+}
 
 body {
     margin-bottom: $footer-height;
     font-family: $font-stack-bitter;
     font-weight: 400;
+    background-color: $off-white;
+}
+
+a {
+    color: $sky;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+// Site Header
+.header {
+    @include clear;
+    padding: 2.5rem;
+    background: white;
+    box-shadow: 0 2px 0px rgba(0,0,0,0.2);
+    .logo {
+        @include col-three-quarters;
+    }
+    .nav-primary {
+        @include col-one-quarter;
+        ul {
+            display: none;
+        }
+    }
+    .mobile-nav-toggle {
+        display: block;
+        position: relative;
+        float: right;
+        width: 50px;
+        height: 50px;
+        margin-top: 1.5rem;
+        img {
+            max-width: 32px;
+        }
+    }
 }
 
 
-// Global Footer (Sticky)
+// Site Footer (Sticky)
 .footer {
     position: absolute;
     bottom: 0;

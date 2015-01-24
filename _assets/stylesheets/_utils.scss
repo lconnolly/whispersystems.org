@@ -1,0 +1,51 @@
+/*
+** Utilities / Mixins
+*/
+
+// Grid Mixins
+@mixin clear {
+    &:before,
+    &:after {
+      content: "."; display: block; height: 0; visibility: hidden;
+    }
+    &:after { clear: both; }
+    zoom: 1;
+}
+
+@mixin col-one-half {
+    float: left;
+    width: 50%;
+}
+@mixin col-one-third {
+    float: left;
+    width: 33.3333%;
+}
+@mixin col-two-thirds {
+    float: left;
+    width: 66.6666%;
+}
+@mixin col-one-quarter {
+    float: left;
+    width: 25%;
+}
+@mixin col-three-quarters {
+    float: left;
+    width: 75%;
+}
+
+// CSS3 Mixins
+
+@mixin rotate($deg) {
+    -webkit-transform: rotate(#{$deg}deg);
+    -moz-transform: rotate(#{$deg}deg);
+    -o-transform: rotate(#{$deg}deg);
+    transform: rotate(#{$deg}deg);
+}
+
+@mixin transition($transition-property, $transition-time, $method) {
+    -webkit-transition: $transition-property $transition-time $method;
+    -moz-transition: $transition-property $transition-time $method;
+    -ms-transition: $transition-property $transition-time $method;
+    -o-transition: $transition-property $transition-time $method;
+    transition: $transition-property $transition-time $method;
+}
