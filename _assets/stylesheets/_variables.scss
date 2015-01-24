@@ -1,0 +1,22 @@
+/*
+** Global Variables
+*/
+
+// Font Stacks
+$font-stack-viga: "Lato", "Liberation Sans", "Helvetica Neue", "Helvetica", "Open Sans", "Arial", sans-serif;
+$font-stack-bitter: "Bitter", "Lucida Serif", "Lucida", "Liberation Serif", "Georgia", serif;
+
+// Colors
+$charcoal:            #1b1b1b;
+$sky:                 #2090ea;
+$shale:               #434343;
+$burlap:              #bcb9b0;
+$off-white:           #f1f1f1;
+
+// Text Colors
+$headlines:           $charcoal;
+$copy:                $shale;
+$copy-light:          lighten($shale, 30%);
+
+// Sticky Footer
+$footer-height: 250px;

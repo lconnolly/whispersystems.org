@@ -1,0 +1,12 @@
+/*
+** Global Components
+*/
+
+// Forms
+::-webkit-input-placeholder {   color: $copy-light; }
+::-moz-placeholder {            color: $copy-light; } /* FF 19+ */
+:-moz-placeholder {             color: $copy-light; } /* FF 18- */
+:-ms-input-placeholder {        color: $copy-light; }
+
+label { cursor: pointer; }
+textarea { resize: vertical; }

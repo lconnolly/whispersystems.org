@@ -1,0 +1,21 @@
+/*
+** Global Layout
+*/
+
+/* Improved Webkit Font Rendering */
+* { -webkit-font-smoothing: antialiased; }
+
+body {
+    margin-bottom: $footer-height;
+    font-family: $font-stack-bitter;
+    font-weight: 400;
+}
+
+
+// Global Footer (Sticky)
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: $footer-height;
+}
