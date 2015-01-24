@@ -1,0 +1,10 @@
+/*
+** Responsive Styles
+** Progressive Enhancements from Mobile-First Layout
+*/
+
+@media all and (min-width: 640px) {
+    .header .logo a {
+        width: auto;
+    }
+}

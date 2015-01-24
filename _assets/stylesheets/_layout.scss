@@ -6,7 +6,11 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    -webkit-font-smoothing: antialiased; /* Improved Webkit Font Rendering */
+    -webkit-font-smoothing: antialiased; // Improved Webkit Font Rendering
+}
+
+html {
+    overflow-y: scroll; // Force Vertical Scrollbar
 }
 
 body {
@@ -28,18 +32,80 @@ img {
 // Site Header
 .header {
     @include clear;
-    padding: 2.5rem;
     background: white;
     box-shadow: 0 2px 0px rgba(0,0,0,0.2);
     .logo {
-        @include col-three-quarters;
-    }
-    .nav-primary {
-        @include col-one-quarter;
-        ul {
-            display: none;
+        float: left;
+        margin: 2.5rem;
+        a {
+            display: block;
+            width: 110px;
+            overflow: hidden;
+            img {
+                max-width: none;
+            }
         }
     }
+    .nav-primary-toggle {
+        @include transition(all, 0.3s, ease-in-out);
+        display: block;
+        float: right;
+        width: 32px;
+        height: 110px;
+        margin: 2.5rem;
+        img {
+            display: block;
+            padding-top: 2.75rem;
+        }
+        &.nav-toggle-active {
+            @include rotate(180);
+        }
+    }
+    .nav-primary {
+        @include clear;
+        clear: both;
+        display: none;
+        background: $charcoal;
+        ul {
+            float: right;
+            padding: 3.75rem 2.5rem 7.5rem 2.5rem;
+            text-align: right;
+            font-size: 1.875rem;
+            line-height: 1.2;
+            font-family: $font-stack-lato;
+            font-weight: 700;
+            text-transform: uppercase;
+            li {
+                display: block;
+                margin-bottom: 2rem;
+            }
+            a {
+                @include transition(color, 0.25s, ease-in-out);
+                position: relative;
+                display: inline-block;
+                padding: 1.5rem 0;
+                color: $burlap;
+                letter-spacing: 0.0625rem; // 1px
+                &:after {
+                    @include transition(width, 0.15s, ease-in-out);
+                    content: '';
+                    display: block;
+                    position: absolute;
+                    right: 0;
+                    bottom: 0;
+                    width: 1.875rem;
+                    height: 0.125rem; // 2px
+                    background-color: $sky;
+                }
+                &:hover {
+                    color: white;
+                    &:after {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }    
     .mobile-nav-toggle {
         display: block;
         position: relative;

@@ -27,6 +27,10 @@
     <!-- Stylesheets -->
     {% stylesheet reset %}
     {% stylesheet main %}
+    
+    <!-- JS -->
+    {% javascript vendor/jquery-1.8.3.min %}
+    {% javascript main %}
 
   </head>
 
@@ -36,8 +40,10 @@
           <div class="logo">
               <a href="/"><img src="{% asset_path header/whispersystems.png %}"/></a>
           </div>
-          <nav class="nav-primary">
-              <a href="#" id="mobile-nav-toggle" class="mobile-nav-toggle"><img src="{% asset_path header/nav-menu-arrow.svg %}"/></a>
+          <a href="#" id="nav-primary-toggle" class="nav-primary-toggle">
+              <img src="{% asset_path header/nav-menu-arrow.svg %}"/>
+          </a>
+          <nav id="nav-primary" class="nav-primary">
               <ul>
                   <li><a href="/products/">Products</a></li>
                   <li><a href="/about/">About</a></li>
@@ -49,9 +55,6 @@
       </header>
       
       {{ content }}
-
-      <!-- JS after vital HTML elements -->
-      {% javascript main %}
       
       <!-- Clicky Analytics -->
       <script>
