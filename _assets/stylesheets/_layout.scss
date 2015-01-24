@@ -14,7 +14,6 @@ html {
 }
 
 body {
-    margin-bottom: $footer-height;
     font-family: $font-stack-bitter;
     font-weight: 400;
     background-color: $off-white;
@@ -47,7 +46,7 @@ img {
         }
     }
     .nav-primary-toggle {
-        @include transition(all, 0.3s, ease-in-out);
+        @include transition(all, $link-transition-timing, ease-in-out);
         display: block;
         float: right;
         width: 32px;
@@ -71,7 +70,7 @@ img {
             padding: 3.75rem 2.5rem 7.5rem 2.5rem;
             text-align: right;
             font-size: 1.875rem;
-            line-height: 1.2;
+            line-height: 2.25rem;
             font-family: $font-stack-lato;
             font-weight: 700;
             text-transform: uppercase;
@@ -80,7 +79,7 @@ img {
                 margin-bottom: 2rem;
             }
             a {
-                @include transition(color, 0.25s, ease-in-out);
+                @include transition(color, $link-transition-timing, ease-in-out);
                 position: relative;
                 display: inline-block;
                 padding: 1.5rem 0;
@@ -122,8 +121,45 @@ img {
 
 // Site Footer (Sticky)
 .footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: $footer-height;
+    background: lighten($charcoal, 10%);
+    .footer--nav {
+        padding: 2.5rem 2.5rem 0;
+        ul {
+            padding-bottom: 2.5rem;
+            li {
+                display: block;
+                padding-bottom: 1.5rem;
+                color: $sky;
+                letter-spacing: 0.125rem; // 2px
+                font-family: $font-stack-lato;
+                font-weight: 700;
+                text-transform: uppercase;
+            }
+            a {
+                @include transition(color, $link-transition-timing, ease-in-out);
+                color: $burlap;
+                font-size: 0.9375rem;
+                line-height: 1.125rem;
+                letter-spacing: 0;
+                font-family: $font-stack-bitter;
+                font-weight: 400;
+                text-transform: none;
+                &:hover {
+                    color: white;
+                }
+            }
+        }
+    }
+    .footer--legal {
+        padding: 1.5rem 2.5rem;
+        background-color: $charcoal;
+        text-align: center;
+        color: $burlap;
+        font-size: 0.875rem;
+        line-height: 1rem;
+        letter-spacing: 0.0625rem;
+        font-family: $font-stack-lato;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
 }
