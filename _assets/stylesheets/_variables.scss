@@ -3,7 +3,8 @@
 */
 
 // Grid
-$gutter-width: 2.5rem;
+$gutter-width: 1.25rem;
+$margin-width: 2.5rem;
 
 // Font Stacks / Weights
 $font-stack-lato: "Lato", "Liberation Sans", "Helvetica Neue", "Helvetica", "Open Sans", "Arial", sans-serif;
@@ -23,4 +24,4 @@ $copy-light:          lighten($shale, 30%);
 
 // Transition Timing
 $link-transition-timing:            0.3s;
-$button-transition-timing:          0.5s;
+$button-transition-timing:          0.3s;

@@ -11,23 +11,25 @@
 }
 
 // Lap / Tablet
-@media all and (min-width: 768px) {
-    .header .logo a {
-        width: auto;
+@media all and (min-width: 820px) {
+    // Layout
+    .footer .footer--nav ul {
+        @include col-4;
+    }
+    // Page-Specific
+    .home-testimonials .testimonial {
+        @include col-4;
+        margin-bottom: 0;
     }
 }
 
 
 // Desktop / Laptop
 @media all and (min-width: 1024px) {
-    .header .logo a {
-        width: auto;
-    }
+    
 }
 
 // Monitor / Full Display
 @media all and (min-width: 1280px) {
-    .header .logo a {
-        width: auto;
-    }
+
 }

@@ -16,10 +16,10 @@
 
 // Grid Mixins (for semantic markup & fluid grid)
 @mixin container {
-    padding-right: $gutter-width;
-    padding-left: $gutter-width;
-    margin-right: auto;
+    padding-left: $margin-width;
+    padding-right: $margin-width;
     margin-left: auto;
+    margin-right: auto;
     &:before,
     &:after {
         display: table;
@@ -31,8 +31,10 @@
 }
 
 @mixin row {
-    margin-right: -$gutter-width;
-    margin-left: -$gutter-width;
+    margin-left: -$margin-width;
+    margin-right: -$margin-width;
+    padding-left: $gutter-width;
+    padding-right: $gutter-width;
     &:before,
     &:after {
         display: table;
@@ -47,8 +49,8 @@
     position: relative;
     float: left;
     min-height: 1px;
-    padding-right: $gutter-width;
     padding-left: $gutter-width;
+    padding-right: $gutter-width;
 }
 
 // Full Width (optional)

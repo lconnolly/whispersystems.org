@@ -38,6 +38,14 @@ h1 {
     margin-bottom: 2rem;
 }
 
+h2 {
+    margin-bottom: 1.5rem;
+    font-size: 2.25rem;
+    line-height: 2.625rem;
+    font-weight: 700;
+    color: $shale;
+}
+
 // Site Header
 .header {
     @include clearfix;
@@ -45,7 +53,7 @@ h1 {
     box-shadow: 0 2px 0px rgba(0,0,0,0.2);
     .logo {
         float: left;
-        margin: $gutter-width;
+        margin: $margin-width;
         a {
             display: block;
             width: 110px;
@@ -61,7 +69,7 @@ h1 {
         float: right;
         width: 32px;
         height: 110px;
-        margin: 2.5rem;
+        margin: $margin-width;
         img {
             display: block;
             padding-top: 2.75rem;
@@ -77,7 +85,7 @@ h1 {
         background: $charcoal;
         ul {
             float: right;
-            padding: 3.75rem $gutter-width 7.5rem;
+            padding: 3.75rem $margin-width 7.5rem;
             text-align: right;
             font-size: 1.875rem;
             line-height: 2.25rem;
@@ -135,11 +143,11 @@ h1 {
     background: lighten($charcoal, 10%);
     .footer--nav {
         @include row;
+        padding-top: $margin-width;
         ul {
             @include col;
-            @include col-4;
-            padding-top: 2.5rem;
-            padding-bottom: 2.5rem;
+            @include col-12;
+            padding-bottom: $margin-width;
             li {
                 display: block;
                 padding-bottom: 1.5rem;

@@ -28,9 +28,9 @@
         text-align: center;
     }
     h1 {
-        color: white;
         font-size: 2.625rem;
         line-height: 3rem;
+        color: white;
     }
     .button {
         border-color: rgba(255,255,255,0.7);
@@ -38,6 +38,85 @@
             color: $charcoal;
             background-color: rgba(255,255,255,0.7);
             border-color: rgba(255,255,255,0);
+        }
+    }
+}
+
+.home-testimonials {
+    @include container;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: $off-white;
+    .row {
+        @include row;
+    }
+    h2 {
+        @include col;
+        @include col-12;
+        text-align: center;
+    }
+    .testimonial {
+        @include col;
+        @include col-12;
+        margin-bottom: $margin-width;
+    }
+    blockquote {
+        @include border-radius(4px);
+        position: relative;
+        margin-bottom: 1.5rem;
+        box-shadow: 0px 2px 2px #e4e4e4;
+        background-color: white;
+        font-size: 0.875rem;
+        line-height: 1.125rem;
+        font-family: $font-stack-bitter;
+        color: $shale;
+        font-style: italic;
+        &:after {
+            content: '';
+            display: block;
+            position: absolute;
+            left: 50%;
+            width: 0;
+            height: 0.75rem;
+            margin-left: -0.75rem;
+            border-width: 0.75rem 0.75rem 0;
+            border-color: white transparent;
+            border-style: solid;
+        }
+        p {
+            min-height: 7rem;
+            padding: 1.5rem;
+            border-bottom: 1px solid $off-white;
+            &:before {
+                content: '\201C';
+            }
+            &:after {
+                content: '\201D';
+            }
+        }
+        cite {
+            display: block;
+            padding: 0.75rem 1.5rem 1rem;
+            line-height: 1.125rem;
+            text-align: center;
+            span {
+                display: block;
+                margin-bottom: 0.25rem;
+                font-weight: 700;
+                color: $sky;
+            }
+        }
+    }
+    .testimonial--photo {
+        @include border-radius(108px);
+        display: block;
+        overflow: hidden;
+        width: 108px;
+        height: 108px;
+        margin: 0 auto;
+        border: 2px solid $charcoal;
+        img {
+            max-width: auto;
         }
     }
 }
