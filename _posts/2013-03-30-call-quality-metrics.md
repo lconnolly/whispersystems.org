@@ -1,5 +1,5 @@
 ---
-title: Blog >> Call Quality Metrics
+title: "Call Quality Metrics"
 layout: post
 ---
 

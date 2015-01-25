@@ -1,5 +1,5 @@
 ---
-title: Blog >> All The Things That Pull And Push
+title: "All The Things That Pull And Push"
 layout: post
 ---
 

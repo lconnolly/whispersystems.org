@@ -1,5 +1,5 @@
 ---
-title: Blog >> Interested in privacy enhancing technology? How to get involved at Open Whisper Systems.
+title: "Interested in privacy enhancing technology? How to get involved at Open Whisper Systems."
 layout: post
 ---
 

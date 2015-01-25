@@ -1,5 +1,5 @@
 ---
-title: "Blog >> TextSecure, Now With 10 Million More Users"
+title: "TextSecure, Now With 10 Million More Users"
 layout: post
 ---
 

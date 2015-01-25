@@ -1,5 +1,5 @@
 ---
-title: "Blog >> The View From here"
+title: "The View From here"
 layout: post
 ---
 

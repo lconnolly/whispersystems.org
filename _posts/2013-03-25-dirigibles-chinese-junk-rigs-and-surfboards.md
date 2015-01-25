@@ -1,5 +1,5 @@
 ---
-title: "Blog >> Dirigibles, Chinese Junk Rigs, and Surfboards"
+title: "Dirigibles, Chinese Junk Rigs, and Surfboards"
 layout: post
 ---
 

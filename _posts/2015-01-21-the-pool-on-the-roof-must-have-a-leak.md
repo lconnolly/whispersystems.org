@@ -1,5 +1,5 @@
 ---
-title: "Blog >> The pool on the roof must have a leak"
+title: "The pool on the roof must have a leak"
 layout: post
 ---
 

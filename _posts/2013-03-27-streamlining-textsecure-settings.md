@@ -1,5 +1,5 @@
 ---
-title: Blog >> Streamlining TextSecure Settings
+title: "Streamlining TextSecure Settings"
 layout: post
 ---
 

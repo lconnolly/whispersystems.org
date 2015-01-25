@@ -1,5 +1,5 @@
 ---
-title: "Blog >> Surrendering to the Potential of Constraints"
+title: "Surrendering to the Potential of Constraints"
 layout: post
 ---
 

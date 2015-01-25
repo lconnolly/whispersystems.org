@@ -1,5 +1,5 @@
 ---
-title: "Blog >> Advanced cryptographic ratcheting"
+title: "Advanced cryptographic ratcheting"
 layout: post
 ---
 

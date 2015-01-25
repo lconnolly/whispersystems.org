@@ -1,5 +1,5 @@
 ---
-title: "Blog >> Encryption, encryption everywhere"
+title: "Encryption, encryption everywhere"
 layout: post
 ---
 

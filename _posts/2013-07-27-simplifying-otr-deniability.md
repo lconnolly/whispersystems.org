@@ -1,5 +1,5 @@
 ---
-title: Blog >> Simplifying OTR deniability.
+title: "Simplifying OTR deniability"
 layout: post
 ---
 

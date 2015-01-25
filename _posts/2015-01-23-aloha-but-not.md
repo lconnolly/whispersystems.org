@@ -1,5 +1,5 @@
 ---
-title: "Blog >> Aloha But Not"
+title: "Aloha But Not"
 layout: post
 ---
 

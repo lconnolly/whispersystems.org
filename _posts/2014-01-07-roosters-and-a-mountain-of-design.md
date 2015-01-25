@@ -1,5 +1,5 @@
 ---
-title: "Blog >> Roosters and a mountain of design"
+title: "Roosters and a mountain of design"
 layout: post
 ---
 

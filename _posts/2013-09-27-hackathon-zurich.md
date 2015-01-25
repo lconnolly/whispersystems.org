@@ -1,5 +1,5 @@
 ---
-title: "Blog >> Open Whisper Systems Alpine Hackathon"
+title: "Open Whisper Systems Alpine Hackathon"
 layout: post
 ---
 

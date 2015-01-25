@@ -1,5 +1,5 @@
 ---
-title: "Blog >> The value of our confidences"
+title: "The value of our confidences"
 layout: post
 ---
 

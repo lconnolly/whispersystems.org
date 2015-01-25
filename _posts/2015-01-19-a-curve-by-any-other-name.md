@@ -1,5 +1,5 @@
 ---
-title: "Blog >> A curve by any other name"
+title: "A curve by any other name"
 layout: post
 ---
 

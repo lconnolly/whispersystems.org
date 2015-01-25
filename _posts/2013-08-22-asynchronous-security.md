@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Blog >> Forward Secrecy for Asynchronous Messages"
+title: "Forward Secrecy for Asynchronous Messages"
 ---
 
 Traditionally, asynchronous messaging systems such as email have relied on protocols like PGP or S/MIME for

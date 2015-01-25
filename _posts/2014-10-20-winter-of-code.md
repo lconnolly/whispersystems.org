@@ -1,5 +1,5 @@
 ---
-title: "Blog >> Winter Of Code"
+title: "Winter Of Code"
 layout: post
 ---
 

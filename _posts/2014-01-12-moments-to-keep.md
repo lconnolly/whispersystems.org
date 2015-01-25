@@ -1,5 +1,5 @@
 ---
-title: "Blog >> Moments to keep"
+title: "Moments to keep"
 layout: post
 ---
 

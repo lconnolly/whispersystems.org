@@ -1,5 +1,5 @@
 ---
-title: "Blog >> Star Quality"
+title: "Star Quality"
 layout: post
 ---
 

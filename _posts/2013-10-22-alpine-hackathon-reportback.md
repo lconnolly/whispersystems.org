@@ -1,5 +1,5 @@
 ---
-title: "Blog >> Alpine Hackathon Reportback"
+title: "Alpine Hackathon Reportback"
 layout: post
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Blog >> SBoC Farewell
+title: "SBoC Farewell"
 layout: post
 image: /blog/images/sboc-goodbye.jpg
 ---

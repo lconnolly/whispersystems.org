@@ -1,5 +1,5 @@
 ---
-title: "Blog >> Design of Crypto"
+title: "Design of Crypto"
 layout: post
 ---
 

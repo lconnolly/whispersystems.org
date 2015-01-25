@@ -1,5 +1,5 @@
 ---
-title: "Blog >> If you see a bug in the code, it's probably dying"
+title: "If you see a bug in the code, it's probably dying"
 layout: post
 ---
 

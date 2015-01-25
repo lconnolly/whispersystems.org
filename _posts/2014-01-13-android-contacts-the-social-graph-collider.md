@@ -1,5 +1,5 @@
 ---
-title: "Blog >> Android Contacts, the Social Graph Collider"
+title: "Android Contacts, the Social Graph Collider"
 layout: post
 ---
 

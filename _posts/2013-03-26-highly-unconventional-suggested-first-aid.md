@@ -1,5 +1,5 @@
 ---
-title: "Blog >> Highly Unconventional Suggested First Aid"
+title: "Highly Unconventional Suggested First Aid"
 layout: post
 ---
 

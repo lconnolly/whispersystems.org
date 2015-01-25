@@ -1,5 +1,5 @@
 ---
-title: "Blog >> WBoC Lineup"
+title: "WBoC Lineup"
 layout: post
 ---
 

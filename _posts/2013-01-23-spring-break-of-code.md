@@ -1,5 +1,5 @@
 ---
-title: "Blog >> Spring Break Of Code"
+title: "Spring Break Of Code"
 layout: post
 ---
 

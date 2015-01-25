@@ -1,5 +1,5 @@
 ---
-title: "Blog >> The Difficulty Of Private Contact Discovery"
+title: "The Difficulty Of Private Contact Discovery"
 layout: post
 ---
 

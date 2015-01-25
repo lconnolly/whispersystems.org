@@ -1,5 +1,5 @@
 ---
-title: "Blog >> The New TextSecure: Privacy Beyond SMS"
+title: "The New TextSecure: Privacy Beyond SMS"
 layout: post
 ---
 

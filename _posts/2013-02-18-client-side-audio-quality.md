@@ -1,5 +1,5 @@
 ---
-title: "Blog >> Client-side call quality"
+title: "Client-side call quality"
 layout: post
 ---
 

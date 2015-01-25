@@ -1,5 +1,5 @@
 ---
-title: "Blog >> Private Group Messaging"
+title: "Private Group Messaging"
 layout: post
 ---
 

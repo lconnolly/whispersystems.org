@@ -1,5 +1,5 @@
 ---
-title: "Blog >> For the Love of Humans and Technology"
+title: "For the Love of Humans and Technology"
 layout: post
 ---
 

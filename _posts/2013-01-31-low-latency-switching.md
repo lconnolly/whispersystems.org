@@ -1,5 +1,5 @@
 ---
-title: "Blog >> Creating a low-latency calling network"
+title: "Creating a low-latency calling network"
 layout: post
 ---
 

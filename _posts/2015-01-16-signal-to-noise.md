@@ -1,5 +1,5 @@
 ---
-title: "Blog >> Signal to Noise"
+title: "Signal to Noise"
 layout: post
 ---
 

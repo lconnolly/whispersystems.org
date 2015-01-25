@@ -1,5 +1,5 @@
 ---
-title: "Blog >> Third Day Of Code"
+title: "Third Day Of Code"
 layout: post
 ---
 

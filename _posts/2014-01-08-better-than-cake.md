@@ -1,5 +1,5 @@
 ---
-title: "Blog >> Better than cake"
+title: "Better than cake"
 layout: post
 ---
 

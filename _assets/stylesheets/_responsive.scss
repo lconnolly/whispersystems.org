@@ -5,8 +5,19 @@
 
 // Handheld / Hi DPI Phones
 @media all and (min-width: 640px) {
+    // Layout
     .header .logo a {
         width: auto;
+    }
+    // Page-Specific
+    .home-hero {
+        .home-hero--content {
+            margin: 14% 5%;
+        }
+        h1 {
+            font-size: 2.625rem;
+            line-height: 3rem;
+        }
     }
 }
 
@@ -17,6 +28,10 @@
         @include col-4;
     }
     // Page-Specific
+    .home-hero h1 {
+        font-size: 2.625rem;
+        line-height: 3rem;
+    }
     .home-testimonials .testimonial {
         @include col-4;
         margin-bottom: 0;
