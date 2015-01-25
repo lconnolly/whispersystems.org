@@ -3,7 +3,30 @@
 ** Progressive Enhancements from Mobile-First Layout
 */
 
+// Handheld / Hi DPI Phones
 @media all and (min-width: 640px) {
+    .header .logo a {
+        width: auto;
+    }
+}
+
+// Lap / Tablet
+@media all and (min-width: 768px) {
+    .header .logo a {
+        width: auto;
+    }
+}
+
+
+// Desktop / Laptop
+@media all and (min-width: 1024px) {
+    .header .logo a {
+        width: auto;
+    }
+}
+
+// Monitor / Full Display
+@media all and (min-width: 1280px) {
     .header .logo a {
         width: auto;
     }
