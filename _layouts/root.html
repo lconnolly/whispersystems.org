@@ -13,7 +13,9 @@
     <!-- <link rel="icon" href="" type="image/x-icon"> -->
     
     <!-- App Store Smart Banner - Signal for iOS -->
+    {% if page.smartbanner == true %}
     <meta name="apple-itunes-app" content="app-id=874139669">
+    {% endif %}
     
     <!-- Twitter Card Meta -->
     <meta name="twitter:card" content="summary">
@@ -35,55 +37,13 @@
   </head>
 
   <body>
-  
-      <header class="header">
-          <div class="logo">
-              <a href="/"><img src="{% asset_path header/whispersystems.png %}"/></a>
-          </div>
-          <a href="#" id="nav-primary-toggle" class="nav-primary-toggle">
-              <img src="{% asset_path header/nav-menu-arrow.svg %}"/>
-          </a>
-          <nav id="nav-primary" class="nav-primary">
-              <ul>
-                  <li><a href="/products/">Products</a></li>
-                  <li><a href="/about/">About</a></li>
-                  <li><a href="/community/">Community</a></li>
-                  <li><a href="/news/">News</a></li>
-                  <li><a href="http://support.whispersystems.org/">Support</a></li>
-              </ul>
-          </nav>
-      </header><!-- site-header -->
+      {% include header.html %}
       
-      <footer class="footer">
-          <nav class="footer--nav">
-              <ul>
-                  <li>Our Apps</li>
-                  <li><a href="#">RedPhone</a></li>
-                  <li><a href="#">TextSecure</a></li>
-                  <li><a href="#">Flock</a></li>
-                  <li><a href="#">Signal (iOS)</a></li>
-              </ul>
-              <ul>
-                  <li>About Us</li>
-                  <li><a href="#">Our Team</a></li>
-                  <li><a href="#">Our Story</a></li>
-                  <li><a href="#">Encryption</a></li>
-                  <li><a href="#">Press</a></li>
-              </ul>
-              <ul>
-                  <li>Connect</li>
-                  <li><a href="#">Our Community</a></li>
-                  <li><a href="#">News</a></li>
-                  <li><a href="#">@whispersystems on Twitter</a></li>
-                  <li><a href="#">Contact Us</a></li>
-              </ul>
-          </nav>
-          <div class="footer--legal">
-              &copy; 2011&#8211;{{ site.time | date: '%Y' }} Open Whisper Systems
-          </div>
-      </footer><!-- site-footer -->
+      <div class="site-main">
+          {{ content }}
+      </div><!-- main-content -->
       
-      {{ content }}
+      {% include footer.html %}
       
       <!-- Clicky Analytics -->
       <script>

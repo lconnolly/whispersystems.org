@@ -19,3 +19,11 @@ sass:
     compile_in_place: false   # true|false
     # If true, compiles sass directly into your jekyll source directory
     # As well as your destination directory
+
+assets:
+    sources:
+        - _assets
+        - _assets/images
+        - _assets/javascripts
+        - _assets/stylesheets
+        - _assets/video

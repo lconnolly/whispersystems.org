@@ -28,6 +28,16 @@ img {
     max-width: 100%;
 }
 
+h1,h2,h3,h4,h5 {
+    font-family: $font-stack-lato;
+}
+
+h1 {
+    font-size: 2rem;
+    line-height: 2.25rem;
+    margin-bottom: 2rem;
+}
+
 // Site Header
 .header {
     @include clear;
@@ -157,7 +167,7 @@ img {
         color: $burlap;
         font-size: 0.875rem;
         line-height: 1rem;
-        letter-spacing: 0.0625rem;
+        letter-spacing: 0.0625rem; // 1px
         font-family: $font-stack-lato;
         font-weight: 700;
         text-transform: uppercase;

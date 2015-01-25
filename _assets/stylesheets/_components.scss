@@ -10,3 +10,21 @@
 
 label { cursor: pointer; }
 textarea { resize: vertical; }
+
+// Buttons
+
+.button {
+    @include transition(all, $button-transition-timing, ease-in-out);
+    @include border-radius(4px);
+    display: inline-block;
+    padding: 1.25rem 1.625rem;
+    border: 2px solid $sky;
+    color: white;
+    font-size: 1.125rem;
+    line-height: 1.125rem;
+    text-transform: uppercase;
+    letter-spacing: 0.125rem;
+    &:hover {
+        background-color: $sky;
+    }
+}
