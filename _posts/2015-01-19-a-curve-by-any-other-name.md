@@ -1,10 +1,11 @@
 ---
-title: "A curve by any other name"
 layout: post
+title: "A curve by any other name"
+author: "Lilia"
+author-url: "https://twitter.com/liliakai"
 ---
 
-*A guest post from [Lilia](https://twitter.com/liliakai), Winter Break Of Code
-Day 7*
+*A guest post from Winter Break Of Code, Day 7*
 
 Yesterday was a day of meetings. Discussion and debate flourished.
 Conversations ranged over all parts of every project. Words spoken aloud may
@@ -34,9 +35,7 @@ obvious connection. So why do we call them that?
 As usual, to understand the universe, we must first bake an apple pie from
 scratch. Or at least pretend to.
 
-XXXXX
-
-----
+<!--more-->
 
 In your mind's eye, picture a pie.  If you don't like apple pie, let's say it's
 whatever your preferred kind of pie happens to be. Apple, cherry, lorem,

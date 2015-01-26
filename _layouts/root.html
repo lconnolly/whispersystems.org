@@ -8,6 +8,9 @@
     <title>{{ page.title }} | Open Whisper Systems</title>
     <meta name="description" content="">
     
+    <!-- RSS -->
+    <link rel="alternate" type="application/rss+xml" href="/blog/rss/" title="RSS for Open Whisper Systems Blog"/>
+    
     <!-- Favorites Icon -->
     <!-- <link rel="shortcut icon" href="" type="image/x-icon"> -->
     <!-- <link rel="icon" href="" type="image/x-icon"> -->
@@ -22,7 +25,7 @@
     <meta name="twitter:site" content="@whispersystems">
     <meta name="twitter:creator" content="@moxie">
     <meta name="twitter:url" content="https://www.whispersystems.org{{ page.url }}">
-    <meta name="twitter:title" content="Title">
+    <meta name="twitter:title" content="{{ page.title }}">
     <meta name="twitter:description" content="Description">
     <meta name="twitter:image" content="https://www.whispersystems.org{{ page.image }}" />
     
@@ -36,7 +39,7 @@
 
   </head>
 
-  <body>
+  <body class="view-{{ page.body-class }}">
       
       {% include header.html %}
       

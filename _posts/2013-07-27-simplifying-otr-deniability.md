@@ -1,6 +1,8 @@
 ---
-title: "Simplifying OTR deniability"
 layout: post
+title: "Simplifying OTR deniability"
+author: "Moxie Marlinspike"
+author-url: "https://twitter.com/moxie"
 ---
 
 At Open Whisper Systems we help develop [TextSecure](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms), an
@@ -15,7 +17,7 @@ helps users avoid SMS fees, and obscures conversation metadata from telcos.
 The transition to a new transport is also a good opportunity for us to evaluate and introduce additional cryptographic 
 protocol changes.  Below is one cryptographic protocol change we're thinking of making that we'd welcome feedback on.
 
-XXXXX
+<!--more-->
 
 ## OTR Today
 
@@ -131,5 +133,3 @@ complexity.
 
 We're currently looking at integrating this change into the next version of the TextSecure protocol, along with a number of
 other improvements for asynchronous communication that we'll write more about later.
-
-[Moxie Marlinspike](https://twitter.com/moxie), 27 July 2013

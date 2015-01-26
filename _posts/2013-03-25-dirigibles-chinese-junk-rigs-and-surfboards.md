@@ -1,9 +1,11 @@
 ---
-title: "Dirigibles, Chinese Junk Rigs, and Surfboards"
 layout: post
+title: "Dirigibles, Chinese Junk Rigs, and Surfboards"
+author: "Isis Lovecruft"
+author-url: "https://blog.patternsinthevoid.net/"
 ---
 
-*A guest post by [Isis Lovecruft](https://blog.patternsinthevoid.net/). Spring Break Of Code, Day One.*
+*A guest post from Spring Break Of Code, Day One.*
 
 One of the first times I met up with [Moxie](https://twitter.com/moxie) while travelling, we met at a dive bar in 
 San Francisco's Mission District, packed with hipsters. I had nineteen years, a modified state ID card, and just 
@@ -19,7 +21,7 @@ to mention the financial incentives: being rare in the Americas, a well-kept jun
 to $250,000 USD -- not to mention grant you free slip fees at just about any marina from Anchorage to Punta Arenas. How could 
 anyone turn down such a preposterous plot which included adventure on the high seas, a high mortality risk, riches and notoriety?
 
-XXXXX
+<!--more-->
 
 As I recall, Moxie shook and hung his head, and smiling countered my proposition.
 
@@ -84,9 +86,5 @@ tapatio-coated mango I'd been craving in Berlin.
 <img src="/blog/images/paddlehard.jpg" class="nice" alt="Paddling to catch a wave" />
 
 [isis](https://blog.patternsinthevoid.net) [agora](https://github.com/isislovecruft) [lovecruft](https://twitter.com/isislovecruft)
-
-Lahaina, Maui, Hawaii, United States
-
-24 March 2013
 
 ¹ Well, actually, one of them was a Mozilla Boot-to-Gecko developer phone.

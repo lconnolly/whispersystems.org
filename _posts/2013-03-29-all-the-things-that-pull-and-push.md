@@ -1,10 +1,11 @@
 ---
-title: "All The Things That Pull And Push"
 layout: post
+title: "All The Things That Pull And Push"
+author: "Tyler"
+author-url: "https://twitter.com/abolishme"
 ---
 
-*A guest post by [Tyler](https://twitter.com/abolishme). Spring Break Of Code, Day Five*
-
+*A guest post from Spring Break Of Code, Day Five*
 
 <img src="/blog/images/feet.png" class="nice" alt="Bare feet in the sand" />
 
@@ -22,7 +23,7 @@ of today no other choice but to see themselves as "post-ideological". This is a 
 survives in post-ideology, different only to the extent that it is less apparent. Yes, it seems like we are living in end 
 times -- an entire era of Apocalypse -- made only more insidious by our optimism in its shadow.
 
-XXXXX
+<!--more-->
 
 Although I know *epistemologically* that these are end times, *tacitly* it's harder to grasp. I'm in Hawaii. The sun shines 
 as the Pacific rolls in, each respectively constant and warm. The breeze is gentle, clicking through the palm fronds. The 

@@ -30,20 +30,50 @@ img {
 
 h1,h2,h3,h4,h5 {
     font-family: $font-stack-lato;
+    font-weight: 400;
 }
 
 h1 {
+    padding-bottom: 2rem;
     font-size: 2rem;
     line-height: 2.25rem;
-    margin-bottom: 2rem;
+    font-weight: 400;
 }
 
 h2 {
-    margin-bottom: 1.5rem;
-    font-size: 2.25rem;
-    line-height: 2.625rem;
-    font-weight: 700;
+    padding: 3rem 0;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
     color: $shale;
+    font-weight: 700;
+    letter-spacing: $letter-space-tight;
+}
+
+h3 {
+    padding: 3rem 0 1.875rem;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+    color: $charcoal;
+}
+
+pre,
+code {
+    font-family: $font-stack-mono;
+}
+
+code {
+    line-height: 100%;
+}
+
+pre {
+    @include border-radius(3px);
+    margin-bottom: 1.5rem;
+    padding: 2.25rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    background-color: $charcoal;
+    color: $burlap;
 }
 
 // Site Header
@@ -67,12 +97,12 @@ h2 {
         @include transition(all, $link-transition-timing, ease-in-out);
         display: block;
         float: right;
-        width: 32px;
-        height: 110px;
-        margin: $margin-width;
+        width: 48px;
+        height: 48px;
+        margin: 4.5rem $margin-width $margin-width;
         img {
             display: block;
-            padding-top: 2.75rem;
+            width: 48px;
         }
         &.nav-toggle-active {
             @include rotate(180);
@@ -102,7 +132,7 @@ h2 {
                 display: inline-block;
                 padding: 1.5rem 0;
                 color: $burlap;
-                letter-spacing: 0.0625rem; // 1px
+                letter-spacing: $letter-space-wide;
                 &:after {
                     @include transition(width, 0.15s, ease-in-out);
                     content: '';
@@ -121,17 +151,6 @@ h2 {
                     }
                 }
             }
-        }
-    }    
-    .mobile-nav-toggle {
-        display: block;
-        position: relative;
-        float: right;
-        width: 50px;
-        height: 50px;
-        margin-top: 1.5rem;
-        img {
-            max-width: 32px;
         }
     }
 }
@@ -152,7 +171,7 @@ h2 {
                 display: block;
                 padding-bottom: 1.5rem;
                 color: $sky;
-                letter-spacing: 0.125rem; // 2px
+                letter-spacing: $letter-space-wide;
                 font-family: $font-stack-lato;
                 font-weight: 700;
                 text-transform: uppercase;
@@ -181,7 +200,7 @@ h2 {
         color: $burlap;
         font-size: 0.875rem;
         line-height: 1rem;
-        letter-spacing: 0.0625rem; // 1px
+        letter-spacing: $letter-space-medium;
         font-family: $font-stack-lato;
         font-weight: 700;
         text-transform: uppercase;

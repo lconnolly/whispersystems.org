@@ -23,8 +23,33 @@ textarea { resize: vertical; }
     font-size: 1.125rem;
     line-height: 1.125rem;
     text-transform: uppercase;
-    letter-spacing: 0.125rem;
+    letter-spacing: $letter-space-wide;
     &:hover {
         background-color: $sky;
+    }
+}
+
+// View Headers
+
+.view-header {
+    @include container;
+    position: relative;
+    background: $charcoal;
+    .view-header--content {
+        @include row;
+        padding-top: 3.75rem;
+        padding-bottom: 3.75rem;
+        background-color: rgba(67,67,67,0.75);
+    }
+    h1 {
+        @include col;
+        @include col-12;
+        margin: 0;
+        font-size: 2.5rem;
+        line-height: 3rem;
+        letter-spacing: $letter-space-extra;
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
     }
 }

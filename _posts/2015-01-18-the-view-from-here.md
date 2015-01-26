@@ -1,16 +1,18 @@
 ---
-title: "The View From here"
 layout: post
+title: "The View From here"
+author: "Trevor"
+author-url: "https://twitter.com/trevp__"
 ---
 
-*A guest post from [Trevor](https://twitter.com/trevp__), Winter Break Of Code, Day 6*
+*A guest post from Winter Break Of Code, Day 6*
 
 I've been working with Open Whisper Systems on TextSecure for about
 a year and a half.  I feel like I've earned better treatment than
 being forced to blog at knifepoint, but here we are, so I'll tell my
 story.
 
-XXXXX
+<!--more-->
 
 I'd worked with Moxie on a previous project that was bogging down.
 I was thinking about new projects, and playing with ways to replace

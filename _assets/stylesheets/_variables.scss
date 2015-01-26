@@ -6,10 +6,6 @@
 $gutter-width: 1.25rem;
 $margin-width: 2.5rem;
 
-// Font Stacks / Weights
-$font-stack-lato: "Lato", "Liberation Sans", "Helvetica Neue", "Helvetica", "Open Sans", "Arial", sans-serif;
-$font-stack-bitter: "Bitter", "Lucida Serif", "Lucida", "Liberation Serif", "Georgia", serif;
-
 // Colors
 $charcoal:            #1b1b1b;
 $sky:                 #2090ea;
@@ -21,6 +17,17 @@ $off-white:           #f1f1f1;
 $headlines:           $charcoal;
 $copy:                $shale;
 $copy-light:          lighten($shale, 30%);
+
+// Font Family Stacks
+$font-stack-lato: "Lato", "Liberation Sans", "Helvetica Neue", "Helvetica", "Open Sans", "Arial", sans-serif;
+$font-stack-bitter: "Bitter", "Lucida Serif", "Lucida", "Liberation Serif", "Georgia", serif;
+$font-stack-mono: "Consolas", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Monaco", "Courier New", "Courier", monospace;
+
+// Letter Spacing
+$letter-space-tight:          -0.025em;
+$letter-space-medium:         0.0625em;
+$letter-space-wide:           0.125em;
+$letter-space-extra:          0.1875em;
 
 // Transition Timing
 $link-transition-timing:            0.3s;

@@ -24,6 +24,8 @@ assets:
     sources:
         - _assets
         - _assets/images
+        - _assets/video
         - _assets/javascripts
         - _assets/stylesheets
-        - _assets/video
+
+# blog listing pagination

@@ -1,9 +1,11 @@
 ---
-title: "Highly Unconventional Suggested First Aid"
 layout: post
+title: "Highly Unconventional Suggested First Aid"
+author: "Rhodey"
+author-url: "http://anhonesteffort.org"
 ---
 
-*A guest post by [rhodey](http://anhonesteffort.org).  Spring Break Of Code, Day Two*
+*A guest post from Spring Break Of Code, Day Two*
 
 "I am torn on how best to introduce myself out of context like this, the idea of rattling off facts from my resume is my 
 first instinct, but that seems terribly conventional. With the goal of introducing myself and the entirety of my character, 
@@ -11,7 +13,7 @@ my second (highly unconventional) instinct is to link you to my online dating pr
 would be taken in the desired context. Through my indecision I hope to explain who I am and why I would like to travel 
 across the country to be involved with the Institute for Disruptive Studies. So here goes..."
 
-XXXXX
+<!--more-->
 
 Looking back, the message reads a bit formal and robotic, but it caught the attention of the Institute for Disruptive Studies 
 nonetheless; specifically [Moxie's](https://twitter.com/moxie). I went on to disclose my OkCupid profile, here however I will 
@@ -45,9 +47,3 @@ It took me awhile to discover [Action Bar Sherlock](http://actionbarsherlock.com
 together fragment layout. In the end though, there really isn't any better path to take. Now, with my 90% complete UI, what's 
 left is to implement a couple POC actions and trigger them on the enter or exit of polygons. Oh, and wait for this super glue 
 on my foot to scab off and hopefully give way to sealed skin.
-
-[rhodey](http://anhonesteffort.org)
-
-Lahaina, Maui, Hawaii, United States
-
-25 March 2013

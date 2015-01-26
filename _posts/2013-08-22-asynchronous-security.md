@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Forward Secrecy for Asynchronous Messages"
+author: "Moxie Marlinspike"
+author-url: "https://twitter.com/moxie"
 ---
 
 Traditionally, asynchronous messaging systems such as email have relied on protocols like PGP or S/MIME for
@@ -8,7 +10,7 @@ cryptographic security.  These protocols work the way most people are familiar w
 encrypted email advertises a public key, and those wishing to send encrypted email to that person encrypt their
 outgoing message with that public key.
 
-XXXXX
+<!--more-->
 
 <img src="/blog/images/encrypt-pgp.png" class="nice" alt="PGP encryption" />
 
@@ -109,5 +111,3 @@ it needs to calculate the key exchange on its end, immediately decrypt the ciphe
 With the initial key exchange out of the way, both parties can then continue communicating with an OTR-style protocol
 as usual.  Since the server never hands out the same prekey twice (and the client would never accept the same prekey twice), we
 are able to provide forward secrecy in a fully asynchronous environment.
-
-[Moxie Marlinspike](https://twitter.com/moxie), 22 August 2013

@@ -1,6 +1,8 @@
 ---
-title: "Private Group Messaging"
 layout: post
+title: "Private Group Messaging"
+author: "Moxie Marlinspike"
+author-url: "https://twitter.com/moxie"
 ---
 
 One of the major features we introduced in the [TextSecure v2](/blog/the-new-textsecure/) release was private group chat.
@@ -8,7 +10,7 @@ We believe that group chat is an important feature for encrypted communications 
 to try to summarize some of the existing work in this area, as well as how TextSecure's group chat protocol
 functions.
 
-XXXXX
+<!--more-->
 
 ## Ideal Properties
 
@@ -161,6 +163,3 @@ add members, and then everyone can chat together with a normal asynchronous expe
 <img src="/blog/images/groups-create.png" class="nice" alt="Screenshot of group creation user interface in TextSecure" />
 
 <img src="/blog/images/groups-conversation.png" class="nice" alt="Screenshot of a group conversation in TextSecure" />
-
-
--- [Moxie Marlinspike](https://twitter.com/moxie), 5 May, 2014

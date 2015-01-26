@@ -1,9 +1,11 @@
 ---
-title: "If you see a bug in the code, it's probably dying"
 layout: post
+title: "If you see a bug in the code, it's probably dying"
+author: "Calvin"
+author-url: "https://twitter.com/turtlekiosk"
 ---
 
-*A guest post from [Calvin](https://twitter.com/turtlekiosk), Winter Break Of Code Day 1*
+*A guest post from Winter Break Of Code Day 1*
 
 I woke up this morning feeling like this routine was normal, instead of implausible.
 Two days ago, I was in New York City, riding the train with millions of other commuters
@@ -17,7 +19,7 @@ victories in the browser extension project, the Signal iOS client, and the Andro
 from the day prior and to lay out plans to further the state of user-friendly secure
 communication tools.
 
-XXXXX
+<!--more-->
 
 <img src="/blog/images/beachday2.jpg" class="nice"/>
 

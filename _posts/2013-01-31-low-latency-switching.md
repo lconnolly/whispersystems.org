@@ -1,6 +1,8 @@
 ---
-title: "Creating a low-latency calling network"
 layout: post
+title: "Creating a low-latency calling network"
+author: ""
+author-url: ""
 ---
 
 RedPhone is our mobile app for end-to-end encrypted voice calls.  When we talk about RedPhone, we tend to 
@@ -13,7 +15,7 @@ voice communication would be.
 
 This describes the basic strategy we developed for the network side of low-latency and highly-available calls.
 
-XXXXX
+<!--more-->
 
 ## Our Own Infrastructure
 

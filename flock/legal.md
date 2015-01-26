@@ -1,6 +1,6 @@
 ---
 title: "Flock"
-layout: blog
+layout: root
 ---
 ###Open Whisper Systems, LLC
 

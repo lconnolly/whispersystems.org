@@ -1,15 +1,17 @@
 ---
-title: "Interested in privacy enhancing technology? How to get involved at Open Whisper Systems."
 layout: post
+title: "Interested in privacy enhancing technology? How to get involved at Open Whisper Systems."
+author: "Moxie Marlinspike"
+author-url: "https://twitter.com/moxie"
 ---
 
 Open Whisper Systems is a project focused on developing Open Source security and privacy apps for the
-mobile environment.  With all of the recent discussion about [PRISM](https://en.wikipedia.org/wiki/PRISM_(surveillance_program%29), 
+mobile environment.  With all of the recent discussion about [PRISM](https://en.wikipedia.org%2Fwiki%2FPRISM_surveillance_program), 
 [Boundless Informant](https://en.wikipedia.org/wiki/Boundless_Informant), and 
 [FISA orders](http://www.guardian.co.uk/world/interactive/2013/jun/06/verizon-telephone-data-court-order),
 there has been a surge of new users and inquiries about how to get involved.
 
-XXXXX
+<!--more-->
 
 If you're interested in the project, here are some ways to help out Open Whisper Systems:
 
@@ -32,4 +34,3 @@ If you're interested in the project, here are some ways to help out Open Whisper
   <a class="coinbase-button" data-code="d29fd4c37ca442393e32fdcb95304701" data-button-style="donation_large" href="https://coinbase.com/checkouts/d29fd4c37ca442393e32fdcb95304701">Donate Bitcoins</a>
 
 <script src="https://coinbase.com/assets/button.js" type="text/javascript"> </script>
-

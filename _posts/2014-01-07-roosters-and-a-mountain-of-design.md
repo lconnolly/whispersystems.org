@@ -1,15 +1,17 @@
 ---
-title: "Roosters and a mountain of design"
 layout: post
+title: "Roosters and a mountain of design"
+author: "Jake"
+author-url: "https://twitter.com/clpwn"
 ---
 
-*A guest post by [Jake](https://twitter.com/clpwn). Winter Break of Code, Day One*
+*A guest post from Winter Break of Code, Day One*
 
 <img src="/blog/images/jake-wboc-pier.jpg" class="nice" alt="The pier at Hanalei Bay, island of Kauai" />
 
 The [Winter Break of Code](/blog/winter-break-of-code), being closely linked by name to the season of Winter, began with a calm trickle of ex{hausted,cited} people carrying laptops and cell phone collections after a parade of delays and weather issues. Off the plane after a pitch black descent, the humid fresh smell distinct to this place along with my feet landing on soil was a good hint that we were indeed on an island and this was actually happening. It was very welcome.
 
-XXXXX
+<!--more-->
 
 Roosters are very convenient alarms - not necessarily because of their loud noises, but because of the utter frustration you can nearly sense in their voice as if they can't believe you aren't waking up already. And, as if everybody had equally understood the timely anxiety of the rooster in the morning, I showed up in the morning to a surprisingly awake group of individuals at the house ready to make things happen. Coffee brewed, banana consumed, compete with yourself to make your ideas a reality. Pace around, surf, juggle, eat a cracker, continue.
 
@@ -49,9 +51,3 @@ We have some other niceties coming up to help bring in the new day of TextSecure
 ## Future
 
 The week is off to a good start and you, dear reader, can look forward to many more exciting updates throughout it from the other participants. There's much work to be done before this gets pushed, and it's time to get back to that.
-
-[jake](https://twitter.com/clpwn)
-
-Kauai, Hawaii
-
-7 January 2014

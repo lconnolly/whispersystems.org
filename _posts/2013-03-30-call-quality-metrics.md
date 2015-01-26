@@ -1,9 +1,11 @@
 ---
-title: "Call Quality Metrics"
 layout: post
+title: "Call Quality Metrics"
+author: "Stuart Anderson"
+author-url: "https://twitter.com/emblem__"
 ---
 
-*Post by [Stuart Anderson](https://twitter.com/emblem__). Spring Break Of Code, Day Six*
+*Guest post from Spring Break Of Code, Day Six*
 
 Because secure systems aren't valuable if they're not used, WhisperSystems has always focused on delivering strong 
 cryptography alongside a great user experience.  That's the reason [call quality](http://www.whispersystems.org/blog/client-side-audio-quality) has always been a priority in RedPhone's development.
@@ -13,7 +15,7 @@ mobile VoIP solutions.  But we also hear from users who report problems like dro
 and latency, or inaudibly low in-call volume.  While we investigate these reports and attempt to resolve them, we don't 
 have a clear view of what situations cause RedPhone's call quality to degrade, or how to prioritize our development efforts.
 
-XXXXX
+<!--more-->
 
 This week we built a call quality metrics reporting infrastructure for RedPhone.  For the RedPhone Android client this is 
 an opt-in feature that allows callers to elect to have anonymized data about RedPhone's performance during each call delivered 
@@ -47,7 +49,3 @@ metrics data after collecting it from S3.
 
 We look forward to sharing the results of our analysis of the data produced from your feedback, and delivering further 
 improvements in RedPhone's call quality in the coming weeks.
-
-[Stuart O. Anderson](https://twitter.com/emblem__)
-
-Lahaina, Maui, Hawaii, United States

@@ -1,9 +1,11 @@
 ---
-title: "Moments to keep"
 layout: post
+title: "Moments to keep"
+author: "[meskio]"
+author-url: "http://meskio.net/"
 ---
 
-*A guest post by [meskio](http://meskio.net/). Winter Break of Code, Day Six*
+*A guest post from Winter Break of Code, Day Six*
 
 A lot of great memories will stay with me after this intense week. The house 
 surrounded by palm trees, people with computers in every corner: laying down a 
@@ -15,7 +17,7 @@ internet and everything.
 
 <img src="/blog/images/wboc-meskio-mountains.jpg" alt="Northern sea cliffs of Kauai from the Na Pail Coast trail" />
 
-XXXXX
+<!--more-->
 
 It's interesting to have in the same room designers, web developers, android 
 developers. Everybody work on different things and have different perspective of 

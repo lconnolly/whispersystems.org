@@ -1,6 +1,8 @@
 ---
-title: "TextSecure, Now With 10 Million More Users"
 layout: post
+title: "TextSecure, Now With 10 Million More Users"
+author: "Moxie Marlinspike"
+author-url: "https://twitter.com/moxie"
 ---
 
 At Open WhisperSystems, we're working to both advance the state of the art for secure communication
@@ -15,7 +17,7 @@ and ~20k installs a day. Their rapid growth is beginning to rival Microsoft for 
 As of today, the TextSecure protocol will begin shipping as part of the CyanogenMod OS-level SMS provider, in an effort to provide
 completely transparent end-to-end text message encryption between all of their users.
 
-XXXXX
+<!--more-->
 
 ## Integration
 
@@ -79,5 +81,3 @@ but I think we can expect more great things from them in the future.
 Want to help support Open WhisperSystems? The Freedom Of The Press Foundation is 
 [accepting tax-deductable donations](https://pressfreedomfoundation.org/bundle/encryption-tools-journalists) for us and other 
 important projects in this space.
-
--- [Moxie Marlinspike](https://twitter.com/moxie), 09 December 2013

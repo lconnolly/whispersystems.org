@@ -1,6 +1,8 @@
 ---
-title: "Spring Break Of Code"
 layout: post
+title: "Spring Break Of Code"
+author: ""
+author-url: ""
 ---
 
 This Spring will be the first Open Whisper Systems *Spring Break Of Code*, a week-long, expenses-paid retreat to
@@ -10,7 +12,7 @@ time between island living and working on an Open Whisper Systems related projec
 
 <img class="nice" src="/blog/images/maui.png" alt="View of the beach at Puamana, island of Maui." />
 
-XXXXX
+<!--more-->
 
 ## The Details
 

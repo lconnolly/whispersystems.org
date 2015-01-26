@@ -1,16 +1,16 @@
 ---
-title: "Alpine Hackathon Reportback"
 layout: post
+title: "Alpine Hackathon Reportback"
+author: "Meskio"
+author-url: "http://meskio.net/"
 ---
-
-*A guest post by [meskio](http://meskio.net/).*
 
 My cell phone used to be a black and white Nokia until a couple of weeks ago when I decided to enter in the smartphone world. 
 Now that there are more mobile devices connected to the internet than computers, I think it's time for me as well to discover 
 the possibilities of this technology. During this few weeks I've been playing with my new toy, checking how to secure it, and seeing 
 what free software is around to use cryptography on it.
 
-XXXXX
+<!--more-->
 
 Someone on the IRC told me there will be a hackathon of Whisper Systems not that far away from my place. I couldn't miss this 
 opportunity to get my hands on Android development and try to do something useful. So there I was in Zurich, after three 
@@ -47,9 +47,3 @@ his stories.
 Time passes fast when you are focused on something. I have the feeling that the weekend was really short and that I didn't have 
 time to accomplish much. But I have few commits merged on the main repository and I learned a lot. I'm glad I went to the 
 hackathon.
-
--- [meskio](http://meskio.net/)
-
-Zurich, Switzerland
-
-22 October 2013

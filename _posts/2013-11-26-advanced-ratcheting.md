@@ -1,6 +1,8 @@
 ---
-title: "Advanced cryptographic ratcheting"
 layout: post
+title: "Advanced cryptographic ratcheting"
+author: "Moxie Marlinspike"
+author-url: "https://twitter.com/moxie"
 ---
 
 At Open WhisperSystems, we've been working on improving our encrypted asynchronous chat protocol for TextSecure.
@@ -11,7 +13,7 @@ changes we've made include
 creating a [key exchange mechanism for asynchronous transports](/blog/asynchronous-security).
 Our most recent change incorporates what we believe to be substantial improvements to OTR's forward secrecy "ratchet."
 
-XXXXX
+<!--more-->
 
 ## The OTR Ratchet
 
@@ -220,5 +222,3 @@ like TextSecure.  Another asynchronous messaging system, Pond, has
 This is obviously a simplified protocol description, but the [full specification
 can be found here](https://github.com/trevp/axolotl/wiki) if you'd like to look at it critically or
 in more detail.
-
--- [Moxie Marlinspike](https://twitter.com/moxie), 26 November 2013

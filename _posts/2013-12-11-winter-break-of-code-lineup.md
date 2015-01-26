@@ -1,6 +1,8 @@
 ---
-title: "WBoC Lineup"
 layout: post
+title: "WBoC Lineup"
+author: ""
+author-url: ""
 ---
 
 After our wonderful experience with [Spring Break Of Code](https://whispersystems.org/blog/sure), we were excited to try this
@@ -11,7 +13,7 @@ about the development of privacy enhancing technology.
 
 We think the final lineup of those attending in January is going to be great:
 
-XXXXX
+<!--more-->
 
 <img alt="Rhodey" src="/blog/images/rhodey-wboc.png" class="nice-left"/>
 **Rhodey** ([@notrhodey](https://twitter.com/notrhodey)) space, privacy, robits and the cheaper things in life. I plan 
@@ -103,5 +105,3 @@ a style magazine for antagonist youth.
 <img alt="Moxie" src="/blog/images/moxie-wboc.jpg" class="nice-left"/>
 **Moxie Marlinspike** ([@moxie](https://twitter.com/moxie)) Interested in the tension towards the unmediated,
 combined with a strange passion for secure protocols.  Ultimately, we also needed someone there to wash the dishes.
-
-<p style="clear: both;"/>

@@ -1,9 +1,11 @@
 ---
-title: "Surrendering to the Potential of Constraints"
 layout: post
+title: "Surrendering to the Potential of Constraints"
+author: "Tyler"
+author-url: "https://twitter.com/abolishme"
 ---
 
-*A guest post from [Tyler](https://twitter.com/abolishme), Winter Break Of Code, Day 5*
+*A guest post from Winter Break Of Code, Day 5*
 
 > The prophetic discourse of the Karai can be summed up in an observation and a promise: on the one hand, they constantly affirmed the fundamentally evil character of the world, on the other, they insisted that conquest of a good world was possible. "The world is evil! The world is ugly!" they said. "Let us abandon it!" they concluded. \[...\] In short, it was not the discourse of the prophets that was unhealthy, but indeed, the world in which they spoke, the society in which they lived.
  
@@ -21,7 +23,7 @@ Speed ahead to our modern life. My social relations are all but completely virtu
 
 As a publisher and designer, I count myself among this degenerate few and tread carefully whenever I manage to move or speak at all.
 
-XXXXX
+<!--more-->
 
 ## Anxious to Help Is Still an Anxiety
 

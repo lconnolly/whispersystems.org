@@ -1,6 +1,8 @@
 ---
-title: "The New TextSecure: Privacy Beyond SMS"
 layout: post
+title: "The New TextSecure: Privacy Beyond SMS"
+author: "Moxie Marlinspike"
+author-url: "https://twitter.com/moxie"
 ---
 
 Today's [release of TextSecure](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms) is the final
@@ -10,7 +12,7 @@ Using the lessons we've learned from the SMS environment over the past four year
 for asynchronous chat that enables private communication instantly with friends, private groups for realtime collaboration, 
 and the ability to quickly and seamlessly share media privately -- all without depending on SMS.
 
-XXXXX
+<!--more-->
 
 ## High Privacy, Low Friction
 
@@ -86,5 +88,3 @@ help [translate](https://www.transifex.com/projects/p/textsecure-official/), or 
 tracker.  As with any major new release, there will be bugs, so please help us find them.
 
 In the mean time, get started with the new TextSecure for Android, [download it for free](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms)!
-
--- [Moxie Marlinspike](https://twitter.com/moxie), 24 February, 2014

@@ -1,11 +1,13 @@
 ---
 layout: post
 title: "Open Whisper Systems is coming to iPhone!"
+author: ""
+author-url: ""
 ---
 
 <img src="/blog/images/redphone-ios-soon.png" class="nice" alt="A mockup of the WhisperSystems logo on an iPhone." />
 
-XXXXX
+<!--more-->
 
 <iframe height="180" allowTransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none;padding-top:25px;margin-bottom:-30px;" src="https://whispersystems.wufoo.com/embed/z7x4m1/"><a href="https://whispersystems.wufoo.com/forms/z7x4m1/">Sign up for new iPhone app announcements.</a></iframe>
 

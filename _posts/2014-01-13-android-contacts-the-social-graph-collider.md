@@ -1,9 +1,11 @@
 ---
-title: "Android Contacts, the Social Graph Collider"
 layout: post
+title: "Android Contacts, the Social Graph Collider"
+author: "Rhodey"
+author-url: "https://twitter.com/notrhodey"
 ---
 
-*A guest post by [Rhodey](https://twitter.com/notrhodey). Winter Break of Code, Day Seven*
+*A guest post from Winter Break of Code, Day Seven*
 
 <img src="/blog/images/wboc-rhodey-surfn.jpg" alt="Rhodey surfing" />
 
@@ -14,7 +16,7 @@ Code 2013 I struggled with the Android SDK, while Winter Break of Code 2014 I
 caught myself taking a few too many short-cuts. On day zero nothing is easy, but
 over time you improve, spilling a little less blood every time.  
 
-XXXXX
+<!--more-->
 
 #### A Hint of Secure Sync
 
@@ -108,9 +110,3 @@ is the user**. Unfortunately *Open Access*, much like *Network
 Neutrality* is one of these phrases that can be thrown behind a misguided
 agenda to trip up an unfamiliar, unsuspecting userbase. Don't be fooled,
 the Android Contacts Provider is wack.
-
-[Rhodey Orbits](https://twitter.com/notrhodey)
-
-Kauai, Hawaii
-
-13 January 2014

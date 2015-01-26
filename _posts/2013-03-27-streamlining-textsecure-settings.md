@@ -1,9 +1,11 @@
 ---
-title: "Streamlining TextSecure Settings"
 layout: post
+title: "Streamlining TextSecure Settings"
+author: "Lilia"
+author-url: "https://twitter.com/liliakai"
 ---
 
-*A guest post by [lilia](https://twitter.com/liliakai). Spring Break Of Code, Day Three*
+*A guest post from Spring Break Of Code, Day Three*
 
 I am no stranger to Hawaii. Although I've never lived here myself, I've visited
 the islands perhaps a dozen times. My grandmother and my father were born and
@@ -15,7 +17,7 @@ But this trip is different. This time it's not about family or heritage. This
 time, I have a mission: to make secure text messaging and calling easier, more
 accessible, and more prevalent.
 
-XXXXX
+<!--more-->
 
 The first time I used TextSecure was a bit of a blur. "Hey do you have
 TextSecure?", my roommate, Mark, asked one First Friday in Oakland. "Huh? What?
@@ -111,9 +113,3 @@ They've just moved to a new home.
 With these changes, we can essentially cut the settings menu in half, making
 your TextSecure configuration experience cleaner, simpler, and more
 streamlined.
-
-[lilia](https://twitter.com/liliakai)
-
-Lahaina, Maui, Hawaii, United States
-
-26 March 2013

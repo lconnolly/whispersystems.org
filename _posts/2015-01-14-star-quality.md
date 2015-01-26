@@ -1,9 +1,11 @@
 ---
-title: "Star Quality"
 layout: post
+title: "Star Quality"
+author: "Emily"
+author-url: ""
 ---
 
-*A guest post from Emily, Winter Break Of Code Day 2*
+*A guest post from Winter Break Of Code Day 2*
 
 Because I might get sappy, here's a picture to ease that before I let it all out. 
 
@@ -14,7 +16,7 @@ was pretty last minute, completed when I was in a state of droopiness and schola
 But I got on a plane from the Midwest, went from cloudy, 20 degrees with windchill making it feel like 0 to
 sunny, 77 degrees with mild winds making it feel still 77 degrees. 
 
-XXXXX
+<!--more-->
 
 <img src="/blog/images/wboc-rooster.jpg" class="nice" />
 
@@ -61,7 +63,3 @@ and I know that I'll take more than just the completed bucket list when I go bac
 winter cold.
 
 <img src="/blog/images/wboc-pano.jpg" class="nice"/>
-
--- Emily
-
-Kauai, January 14th 2015

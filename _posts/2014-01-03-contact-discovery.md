@@ -1,6 +1,8 @@
 ---
-title: "The Difficulty Of Private Contact Discovery"
 layout: post
+title: "The Difficulty Of Private Contact Discovery"
+author: "Moxie Marlinspike"
+author-url: "https://twitter.com/moxie"
 ---
 
 Building a social network is not easy.  Social networks have value proportional to their size, 
@@ -12,7 +14,7 @@ acutely "social."  Even privacy enhancing technology, which seems anathema to th
 social networking, is tremendously social.  For people to effectively use private communication software
 like TextSecure, they need to be able to know how to contact their friends using TextSecure.
 
-XXXXX
+<!--more-->
 
 Access to an existing social graph makes building social apps much easier.  Traditionally, social apps turn to 
 services like Facebook or Twitter for their social graph.  By using "Facebook connect" (sign in with Facebook)
@@ -147,5 +149,3 @@ This would be a great problem to really solve well.  If anyone develops any insi
 mechanism for achieving this type of contact discovery, or notices something we've missed, please let us know
 here, on [twitter](https://twitter.com/whispersystems), or
 [on our development mailing list](https://lists.riseup.net/www/subscribe/whispersystems).
-
--- [Moxie Marlinspike](https://twitter.com/moxie), 03 January 2014

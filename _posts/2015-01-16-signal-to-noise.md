@@ -1,13 +1,15 @@
 ---
-title: "Signal to Noise"
 layout: post
+title: "Signal to Noise"
+author: "Corbett"
+author-url: "https://twitter.com/corbett"
 ---
 
-*A guest post from [Corbett](https://twitter.com/corbett), Winter Break Of Code Day 4*
+*A guest post from Winter Break Of Code Day 4*
 
 I'm not sure those attending their first break of code know what they are getting into. When I said ["sure" to Moxie my first break, I sure didn't](https://whispersystems.org/blog/sure/). During that week I had already come to the conclusion "I have to see this (TextSecure iOS) through". In the intervening time, I've become an expert on the [Axolotl protocol](http://codexgalactic.com/2014/01/27/axolotl-protocol-for-cryptographically-secure-messaging/), [come to understand ZRTP](https://whispersystems.org/blog/a-whisper/), [picked up the world's best collaborator](https://twitter.com/fredericjacobs), helped with [the final polish of Signal with Redphone support](https://itunes.apple.com/us/app/signal-private-messenger/id874139669?mt=8) and contributed [a lot of code to the TextSecure prototype](https://github.com/WhisperSystems/TextSecure-iOS/graphs/contributors). 
 
-XXXXX
+<!--more-->
 
 I'm pleased to say, thanks in no small part to Fred's hard work, we've graduated Signal with TextSecure support from the prototype phase [to the beta phase](https://github.com/WhisperSystems/Signal-iOS). Soon, we will launch. And yet I don't feel "through" in the slightest. That goalpost of "through" I originally vowed has moved much further afield. *Signal to Noise*. That phrase means a lot to me: Signal the app, takes your private communication and makes it noise to anyone you don't want listening in, keeping the signal for just the people you choose. Perhaps equally importantly its use sends a signal to the powers that are listening; it is a vote for a less dystopian future. The higher the Signal usage, the more chance we have of making a change at the societal level about the way we approach mass surveillance. Mass surveillance is already morally unviable, and with our help it will become less financially viable as well. 
 

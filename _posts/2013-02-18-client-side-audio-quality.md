@@ -1,13 +1,15 @@
 ---
-title: "Client-side call quality"
 layout: post
+title: "Client-side call quality"
+author: ""
+author-url: ""
 ---
 
 In our [previous post](/blog/low-latency-switching), we discussed the global infrastructure that allows RedPhone clients 
 to find low latency servers when establishing a call.  This post discusses the techniques we use to retain call quality 
 when network conditions are less than ideal.
 
-XXXXX
+<!--more-->
 
 ## Client-side call quality
 

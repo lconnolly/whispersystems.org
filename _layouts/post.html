@@ -1,28 +1,57 @@
 ---
-layout: blog
+layout: root
+body-class: "blog-post"
 ---
 
-<article class="container">
-
-  <ul class="social-buttons">
-    <li><a href="https://twitter.com/share" class="twitter-share-button" data-via="whispersystems">Tweet</a></li>
-    <li><iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.whispersystems.org{{ page.url | cgi_escape }}&amp;send=false&amp;layout=button_count&amp;width=450&amp;show_faces=false&amp;font&amp;colorscheme=light&amp;action=like&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:107px; height:21px;" allowTransparency="true"></iframe></li>
-    <li><a href="http://news.ycombinator.com/submit"  data-title="{{ page.blog }}" data-url="http://whispersystems.me{{ page.url }}" class="hn-share-button">Vote on HN</a></li>
-  </ul>
-
-  <div id="disqus_thread"></div>
-
-<!-- Final scripts after vital HTML elements in post -->
-
-  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
-  </script>
-  <script>
-    (function(d, t) {
-    var g = d.createElement(t),
-    s = d.getElementsByTagName(t)[0];
-    g.src = '//hnbutton.appspot.com/static/hn.js';
-    s.parentNode.insertBefore(g, s);
-    }(document, 'script'));
-  </script>
-
+<article>
+    <header>
+        <h1>{{ page.title }}</h1>
+        <div class="blog-post--meta">
+            {% if page.author %}
+                {% if page.author-url %}<a href="{{ page.author-url }}">{% endif %}
+                {{ page.author }}
+                {% if page.author-url %}</a>{% endif %}
+            {% endif %}
+            &nbsp;&#8211;&nbsp;
+            {{ page.date | date: "%B %-d, %Y" }}
+        </div>
+        <a href="/blog" class="blog-main"><img src="{% asset_path icons/list.svg %}"/></a>
+        <a href="#" id="blog-share-toggle" class="share"><img src="{% asset_path icons/share.svg %}"/></a>
+        <ul id="blog-share-bar" class="blog-social-links">
+            <li>Share This Article</li>
+            <li>
+                <a href="https://twitter.com/share" class="twitter-share-button" data-via="whispersystems">Tweet</a>
+            </li>
+            <li>
+                <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.whispersystems.org{{ page.url | cgi_escape }}&amp;send=false&amp;layout=button_count&amp;width=450&amp;show_faces=false&amp;font&amp;colorscheme=light&amp;action=like&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:107px; height:21px;" allowTransparency="true"></iframe>
+            </li>
+            <li>
+                <a href="https://news.ycombinator.com/submit" class="hn-button" data-title="{{ page.title }}" data-url="http://whispersystems.org/{{ page.url }}" data-count="horizontal">Vote on Hacker News</a>
+            </li>
+        </ul><!-- blog-post-social -->
+    </header>
+    <div class="article-content">
+        {{ content }}
+    </div><!-- article-content -->
+    <footer class="blog-post--nav">
+        {% if page.previous.url %} 
+        <a class="prev" href="{{page.previous.url}}">
+            <span>Previous</span>
+            <div>{{page.previous.title}}</div>
+        </a>
+        {% endif %} 
+        {% if page.next.url %} 
+            <a class="next" href="{{page.next.url}}">
+                <span>Next</span>
+                <div>{{page.next.title}}</div>
+            </a> 
+        {% endif %}
+    </footer>
 </article>
+
+<!-- Social Sharing Buttons -->
+<!-- Twitter -->
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+</script>
+<!-- Hacker News -->
+<script type="text/javascript">var HN=[];HN.factory=function(e){return function(){HN.push([e].concat(Array.prototype.slice.call(arguments,0)))};},HN.on=HN.factory("on"),HN.once=HN.factory("once"),HN.off=HN.factory("off"),HN.emit=HN.factory("emit"),HN.load=function(){var e="hn-button.js";if(document.getElementById(e))return;var t=document.createElement("script");t.id=e,t.src="//hn-button.herokuapp.com/hn-button.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n)},HN.load();</script>

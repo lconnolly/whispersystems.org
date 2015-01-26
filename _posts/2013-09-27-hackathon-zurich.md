@@ -1,13 +1,15 @@
 ---
-title: "Open Whisper Systems Alpine Hackathon"
 layout: post
+title: "Open Whisper Systems Alpine Hackathon"
+author: "Christine Corbett"
+author-url: "https://twitter.com/corbett"
 ---
 
 From October 11th to October 13th, we'll be hosting an informal Open Whisper Systems *Alpine Hackathon* for those in or
 around Zurich, Switzerland who would like to contribute to Open Whisper Systems related projects in a collaborative 
 setting with other co-conspirators.
 
-XXXXX
+<!--more-->
 
 ## The Details
 
@@ -22,5 +24,3 @@ information (brief is fine):
    be a good start).
 
 We'll see you there!
-
--- [Christine Corbett](https://twitter.com/corbett), 27 September 2013

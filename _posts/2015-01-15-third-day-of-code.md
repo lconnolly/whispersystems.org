@@ -1,15 +1,17 @@
 ---
-title: "Third Day Of Code"
 layout: post
+title: "Third Day Of Code"
+author: "BlueMatt"
+author-url: "https://twitter.com/thebluematt"
 ---
 
-*A guest post from [BlueMatt](https://twitter.com/thebluematt), Winter Break Of Code Day 3*
+*A guest post from Winter Break Of Code Day 3*
 
 As it does every morning, the day started with moxie singing the standup song, reminding us all
 (and waking up the slackers) that at 9am sharp we all get in a circle to discuss what we
 accomplished the day before and what our priorities are for the coming day.
 
-XXXXX
+<!--more-->
 
 Wednesday morning's standup also included a decision to take a late-afternoon drive up the coast for
 a sunset picnic.  Most of the day was spent working, but that didn't stop random activities from
@@ -34,7 +36,3 @@ By the time the twilight faded, we had finished comparing the effect of the mode
 of self with the historical result of religion on society, and headed home to spend the rest of the
 evening designing UX, building GUIs, and refactoring code towards more great Open Whisper Systems
 apps.
-
--- [Matt](https://twitter.com/thebluematt)
-
-Kauai, January 15th, 2015

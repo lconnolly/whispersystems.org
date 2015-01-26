@@ -1,9 +1,11 @@
 ---
-title: "The value of our confidences"
 layout: post
+title: "The value of our confidences"
+author: "Tyler"
+author-url: "https://twitter.com/abolishme"
 ---
 
-*A guest post by [Tyler](https://twitter.com/abolishme). Winter Break of Code, Day Five*
+*A guest post from Winter Break of Code, Day Five*
 
 <img src="/blog/images/wboc-tyler-jump.png" alt="Jumping off the pier at Hanalei Bay" />
 
@@ -21,7 +23,7 @@ However, we must be brave enough to attempt to  understand his description of th
 
 Imagine, as Marx expects of us in the passage above, that an "internet" commodity could speak. What would it say?
 
-XXXXX
+<!--more-->
 
 Anyone who has examined the business models of big players on the internet — the g, the f, the t, for example — understands what precisely they are selling, and to whom they sell. Who are the customers of these massive institutions? Not the users, as we might expect. It is in fact the advertisers who enter the marketplace to purchase these products. *What* are the products, then?
 

@@ -1,9 +1,11 @@
 ---
-title: "Better than cake"
 layout: post
+title: "Better than cake"
+author: "Lilia"
+author-url: "https://twitter.com/liliakai"
 ---
 
-*A guest post by [lilia](https://twitter.com/liliakai). Winter Break of Code, Day Two*
+*A guest post from Winter Break of Code, Day Two*
 
 By all rights, I should not be here. My application was last-minute to say the
 least, and little more than a casual note that I'd be down to reprise my role
@@ -16,7 +18,7 @@ universe smiled, and here I am.
 
 <img src="/blog/images/lilia-wboc-pier.jpg" class="nice" alt="The pier at Hanalei Bay, Island of Kauai" />
 
-XXXXX
+<!--more-->
 
 Yesterday I celebrated the 28th anniversary of my birth in the style to which
 we have quickly become accustomed in this corner of paradise. It started with
@@ -46,10 +48,4 @@ There wasn't any cake, but it didn't matter, because I really couldn't have
 asked for a nicer day.
 
 <img src="/blog/images/lilia-wboc-hanalei.png" class="nice" alt="View from the hilltop overlooking Hanalei" />
-
-[lilia](https://twitter.com/liliakai)
-
-Kauai, Hawaii
-
-8 January 2014
 

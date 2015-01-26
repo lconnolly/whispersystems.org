@@ -1,15 +1,17 @@
 ---
-title: "Encryption, encryption everywhere"
 layout: post
+title: "Encryption, Encryption Everywhere"
+author: "Jessy"
+author-url: "https://twitter.com/jessysaurusrex"
 ---
 
-*A guest post from [Jessy](https://twitter.com/jessysaurusrex), Winter Break Of Code Day 8*
+*A guest post from Winter Break Of Code, Day 8*
 
 <img src="/blog/images/wboc-water.jpg" class="nice"/>
 
 A few weeks ago, an email full of information to help prep for Winter Break of Code popped up in my inbox. Throughout my personal countdown to the day I got to leave San Francisco for Hawaii, one line from that email continuously resonated throughout my mind: “Have your development environment ready to go.”
 
-XXXXX
+<!--more-->
 
 For most of my fellow “lil’ Whispers” (read: fellow WBOC rookies), the standard development environment includes tools that send pull requests, merge code, and deploy that code into production. By contrast, my development environment is a little simpler— a legal pad, a pen, Pages, a few open browser tabs (tweeting is a very important part of the process), and a bundle of complicated, interconnected concepts and words that combine to form content and copy. 
 

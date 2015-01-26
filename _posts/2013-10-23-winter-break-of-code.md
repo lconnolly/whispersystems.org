@@ -1,6 +1,8 @@
 ---
-title: "Winter Break Of Code"
 layout: post
+title: "Winter Break Of Code"
+author: "Moxie Marlinspike"
+author-url: "https://twitter.com/moxie"
 ---
 
 At Open Whisper Systems, we're focused on creating easy to use privacy enhancing technology.  Our projects are free, Open Source,
@@ -14,7 +16,7 @@ environment.  We've rented a large beachfront house on the north coast of Kauai 
 in, and we'll pay for your airfare.  While there, you can split your time between island living and working on an Open Whisper
 Systems related privacy project that you propose.
 
-XXXXX
+<!--more-->
 
 ## The Precedent
 

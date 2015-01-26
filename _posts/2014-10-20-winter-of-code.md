@@ -1,6 +1,8 @@
 ---
-title: "Winter Of Code"
 layout: post
+title: "Winter Of Code"
+author: ""
+author-url: ""
 ---
 
 This January, Open Whisper Systems will be hosting a *Winter Break Of Code*.  We've managed to get access to a
@@ -21,7 +23,7 @@ Everything that Open Whisper Systems produces is free and Open Source.  We've be
 for years now, because we believe that it's possible to develop well-designed
 apps that are both privacy preserving *and* a joy to use.
 
-XXXXX
+<!--more-->
 
 ## Past Breaks Of Code
 

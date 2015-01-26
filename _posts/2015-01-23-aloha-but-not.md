@@ -1,9 +1,11 @@
 ---
-title: "Aloha But Not"
 layout: post
+title: "Aloha But Not"
+author: "Jack"
+author-url: "https://twitter.com/jackflips"
 ---
 
-*A guest post from [Jack](https://twitter.com/jackflips), Winter Break Of Code Day Eleven*
+*A guest post from Winter Break Of Code, Day Eleven
 
 Every morning at standup I’d watch the knife spin in slow motion, dread filling my chest and
 a voice in my head repeating, over and over, “not Slytherin.” (The target of the knife is the
@@ -12,7 +14,7 @@ the wonderful absurdity of stepping on a plane and trading reality for this — 
 work on the world with a group of people that I’ve only admired from afar. I wasn’t sure
 that I had anything to say that hadn’t already been said by my new friends.
 
-XXXXX
+<!--more-->
 
 But now that it’s my turn, I know that I do. 
 
@@ -57,6 +59,6 @@ me these memories and friends and a whole bunch of issues that still need to be 
 know that after my final “aloha”, [Christine](https://twitter.com/corbett) and [Fred](https://twitter.com/FredericJacobs)
 will still be here, furiously finishing the next version of Signal so that we all can take our privacy back.
 
--- [Jack](https://twitter.com/jackflips), January 23rd 2015
+--  
 
 Kauai, HI

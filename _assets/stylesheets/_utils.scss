@@ -53,9 +53,12 @@
     padding-right: $gutter-width;
 }
 
-// Full Width (optional)
 @mixin col-12 {
     width: 100%;
+}
+
+@mixin col-10 {
+    width: 83.33333333%;
 }
 
 @mixin col-9 {
@@ -76,6 +79,12 @@
 
 @mixin col-3 {
     width: 25%;
+}
+
+@mixin col-center {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 

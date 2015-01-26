@@ -4,4 +4,8 @@ $(document).ready(function($) {
         $(this).toggleClass("nav-toggle-active");
         $("#nav-primary").slideToggle(300);
     });
+    $("#blog-share-toggle").click(function(f) {
+        f.preventDefault();
+        $("#blog-share-bar").slideToggle(300);
+    });
 });

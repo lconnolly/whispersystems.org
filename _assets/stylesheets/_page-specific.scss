@@ -2,6 +2,7 @@
 ** Page-Specific Styles
 */
 
+// Homepage
 .home-hero {
     position: relative;
     background-color: $burlap;
@@ -120,3 +121,219 @@
         }
     }
 }
+
+// View Headers
+.view-blog-listing .view-header {
+    background: $charcoal url(asset_path('view-headers/header-blog.jpg')) no-repeat center top;
+    background-size: cover;
+}
+
+// General Blog Styles
+.view-blog-listing article,
+.view-blog-post article {
+    ul,
+    ol {
+        padding-left: 1.5rem;
+        list-style-position: outside;
+        li {
+            padding: 0 0 0.75rem 0.25rem;
+        }
+    }
+    ul {
+        list-style-type: circle;    
+    }
+    ol {
+        list-style-type: decimal;
+    }
+}
+
+// Blog Listing
+.view-blog-listing {
+    .blog-listing {
+        @include container;
+        margin-bottom: $margin-width;
+    }
+    article {
+        @include row;
+        margin-bottom: $margin-width;
+        padding-top: $margin-width;
+        border-top: 1px solid lighten($burlap, 10%);
+        &:first-child {
+            border-top: none;
+        }
+        .article-content {
+            @include col;
+            @include col-12;
+        }
+        h2 {
+            padding: 0.75rem 0 0.375rem;
+            font-size: 1.875rem;
+            line-height: 2.25rem;
+            letter-spacing: $letter-space-tight;
+            color: $shale;
+            a {
+                @include transition(color, $link-transition-timing, ease-in-out);
+            }
+            a:hover {
+                color: $charcoal;
+            }
+        }
+        .blog-post-meta {
+            margin-bottom: 1.875rem;
+            font-family: $font-stack-lato;
+            font-weight: 700;
+            color: lighten($shale, 40%);
+        }
+        p,ul,ol {
+            margin-bottom: 1.5rem;
+            font-size: 1rem;
+            line-height: 1.5rem;
+            color: $copy;
+            a {
+                @include transition(all, $link-transition-timing, ease-in-out);
+                border-bottom: 2px solid lighten($sky, 30%);
+                &:hover {
+                    border-color: $sky;
+                    color: $charcoal;
+                }
+                &:focus,
+                &:active {
+                    background-color: $sky;
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+// Blog Post
+.view-blog-post {
+    .main-content {
+        @include container;
+    }
+    article {
+        @include row;
+        position: relative;
+        header,
+        .article-content {
+            @include col;
+            @include col-12;
+        }
+        header {
+            position: relative;
+            margin-bottom: 3rem;
+            padding-top: 3rem;
+            padding-bottom: 3rem;
+            border-bottom: 1px solid $burlap;
+            text-align: center;
+            .blog-main,
+            .share {
+                display: block;
+                position: absolute;
+                bottom: 1.125rem;
+                font-family: $font-stack-lato;
+                img {
+                    width: 1.5rem;
+                }
+            }
+            .blog-main {
+                left: 1.125rem;
+            }
+            .share {
+                right: 1.125rem;
+            }
+            div {
+                margin: 0;
+                font-family: $font-stack-lato;
+                color: lighten($shale, 20%);
+            }
+            .blog-social-links {
+                @include border-radius(0 0 4px 4px);
+                display: none;
+                z-index: 1;
+                position: absolute;
+                top: 100%;
+                right: 0;
+                padding: 0.75rem 1.5rem;
+                box-shadow: 0px 1px 2px rgba(0,0,0,0.125);
+                list-style: none;
+                background: rgba(255,255,255,0.95);
+                border: 1px solid $burlap;
+                text-align: left;
+                font-size: 0.75rem;
+                font-family: $font-stack-lato;
+                font-weight: 700;
+                text-transform: uppercase;
+                li {
+                    padding: 0;
+                    &:first-child {
+                        margin-bottom: 0.75rem;
+                    }
+                }
+            }
+        }
+        footer {
+            a {
+                display: block;
+                width: 50%;
+                float: left;
+                padding: 1.875rem 0 2.25rem;
+                border-top: 1px solid $shale;
+                span {
+                    @include transition(all, $link-transition-timing, ease-in-out);
+                    display: block;
+                    margin-bottom: 0.375rem;
+                    font-size: 0.75rem;
+                    line-height: 1;
+                    font-weight: 700;
+                    letter-spacing: $letter-space-medium;
+                    font-family: $font-stack-lato;
+                    text-transform: uppercase;
+                    color: lighten($shale, 45%);
+                }
+                div {
+                    font-style: italic;
+                }
+                &.prev {
+                    padding-right: 0.75rem;
+                }
+                &.next {
+                    padding-left: 0.75rem;
+                    float: right;
+                    text-align: right;
+                }
+                &:hover span {
+                    color: $charcoal;
+                }
+            }
+        }
+        h1 {
+            padding-bottom: 1.125rem;
+            font-size: 1.875rem;
+            line-height: 2.25rem;
+            letter-spacing: $letter-space-tight;
+            color: $shale;
+        }
+        p,ul,ol {
+            margin-bottom: 1.5rem;
+            font-size: 1rem;
+            line-height: 1.5rem;
+            color: $copy;
+            a {
+                @include transition(all, $link-transition-timing, ease-in-out);
+                border-bottom: 2px solid lighten($sky, 30%);
+                &:hover {
+                    border-color: $sky;
+                    color: $charcoal;
+                }
+                &:focus,
+                &:active {
+                    background-color: $sky;
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+

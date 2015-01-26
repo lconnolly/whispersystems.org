@@ -1,9 +1,11 @@
 ---
-title: "For the Love of Humans and Technology"
 layout: post
+title: "For the Love of Humans and Technology"
+author: "Yoko"
+author-url: "https://twitter.com/yknakano"
 ---
 
-*A guest post from [Yoko](https://twitter.com/yknakano). Winter Break of Code Day Ten*
+*A guest post from Winter Break of Code, Day Ten*
 
 A couple of days ago, [Jake](https://twitter.com/clpwn), one of the brilliant full timers on
 [Open Whisper Systems]( https://twitter.com/whispersystems), looked up from his laptop and asked
@@ -12,7 +14,7 @@ was a whimsical way of asking why I do what I do and why I am here. Having studi
 Interaction and being a user experience (UX) designer, I’ve been asked variations of this question
 many times before. But it was on this trip I realized my answer needs a little probing.
 
-XXXXX
+<!--more-->
 
 I’ve always felt the need to alleviate unnecessary frustrations caused by poorly designed furniture,
 software, and signage. I’m constantly re-organizing items in my apartment and I appreciate the little

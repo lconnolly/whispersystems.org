@@ -1,9 +1,11 @@
 ---
-title: "The pool on the roof must have a leak"
 layout: post
+title: "The Pool on the Roof Must Have a Leak"
+author: "Riley"
+author-url: "https://twitter.com/rileyjshaw"
 ---
 
-*A guest post from [Riley](https://twitter.com/rileyjshaw), Winter Break Of Code Day 9*
+*A guest post from Winter Break Of Code, Day 9*
 
 Today we hiked the Kalalau Trail and swam beneath the cold spray of a waterfall.
 
@@ -17,7 +19,7 @@ Measured by lines of code, today was short. Measured by steps taken, it was tall
 
 <img src="/blog/images/wboc-falls.jpg" alt="Hanakapi'ai Falls" class="nice"/>
 
-XXXXX
+<!--more-->
 
 For the past week and a half I've been trapped on an island among a team of brilliant hackers. A curious duality exists on the island. At sunrise, stand-up paddleboard yoga is followed naturally by a technical stand-up meeting. A group huddling around a laptop for hours may swiftly disband upon noticing big surf. This isn't an idle vacation, nor is it daunting contract work. We're nineteen people fervently working toward a noble goal in a stress-free mind amphitheater.
 
