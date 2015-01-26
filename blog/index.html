@@ -7,6 +7,14 @@ body-class: "blog-listing"
 <header class="view-header">
     <div class="view-header--content">
         <h1>{{ page.title }}</h1>
+        <div class="rss-twitter">
+            <a href="/blog/rss.xml" title="Subscribe via RSS" class="rss">
+                <img src="{% asset_path icons/rss.svg %}"/>
+            </a>
+            <a href="https://twitter.com/whispersystems" title="Follow on Twitter" class="twitter">
+                <img src="{% asset_path icons/twitter.svg %}"/>
+            </a>
+        </div>
     </div><!-- view-header-content -->
 </header>
 

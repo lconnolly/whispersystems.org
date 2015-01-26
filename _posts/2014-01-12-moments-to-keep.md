@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Moments to keep"
-author: "[meskio]"
+author: "Meskio"
 author-url: "http://meskio.net/"
 ---
 

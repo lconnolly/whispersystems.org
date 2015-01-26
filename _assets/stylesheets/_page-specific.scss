@@ -126,6 +126,28 @@
 .view-blog-listing .view-header {
     background: $charcoal url(asset_path('view-headers/header-blog.jpg')) no-repeat center top;
     background-size: cover;
+    .rss-twitter {
+        @include clearfix;
+        position: absolute;
+        bottom: 0;
+        left: $gutter-width; right: $gutter-width;
+        padding: 1.125rem 0;
+        a {
+            @include transition(opacity, $link-transition-timing, ease-in-out);
+            display: inline-block;
+            float: left;
+            opacity: 0.5;
+            &:hover {
+                opacity: 1;
+            }
+            &.twitter {
+                float: right;
+            }
+            img {
+                display: inline-block;
+            }
+        }
+    }
 }
 
 // General Blog Styles
@@ -147,6 +169,24 @@
     }
 }
 
+// Common Blog Styles
+.view-blog-listing,
+.view-blog-post {
+    article {
+        blockquote {
+            p {
+                padding: 0.75rem 1.875rem;
+                border-left: 2px solid $burlap;
+                font-style: italic;
+            }
+        }
+    }
+    p img {
+        border: 1px solid rgba(255,255,255,0.1);
+        box-shadow: 0px 0px 3px rgba(40,40,40,0.2);
+    }
+}
+
 // Blog Listing
 .view-blog-listing {
     .blog-listing {
@@ -158,7 +198,7 @@
         margin-bottom: $margin-width;
         padding-top: $margin-width;
         border-top: 1px solid lighten($burlap, 10%);
-        &:first-child {
+        &:first-of-type {
             border-top: none;
         }
         .article-content {
