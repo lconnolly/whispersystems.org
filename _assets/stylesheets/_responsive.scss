@@ -19,6 +19,14 @@
             line-height: 3rem;
         }
     }
+    // Products
+    .product .product-links {
+        a,
+        .product-link--inactive {
+            @include col;
+            @include col-4;
+        }
+    }
 }
 
 // Lap / Tablet
@@ -61,6 +69,30 @@
             }
             footer a {
                 padding: 2.625rem 0 3rem;
+            }
+        }
+    }
+    // Products
+    .product {
+        .product--devices {
+            @include col;
+            @include col-4;
+            display: block;
+            text-align: center;
+        }
+        .product--details {
+            @include col;
+            @include col-8;
+        }
+        .product-links {
+            a,
+            .product-link--inactive {
+                img.logo-mobile {
+                    display: none;
+                }
+                img.logo-desktop {
+                    display: block;
+                }
             }
         }
     }
