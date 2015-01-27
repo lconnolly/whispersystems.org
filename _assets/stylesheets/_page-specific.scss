@@ -423,7 +423,7 @@
     .product-links {
         padding-top: 2.25rem;
         a,
-        .product-link-inactive {
+        .product-link--inactive {
             @include col;
             @include col-4;
             text-align: center;
@@ -436,7 +436,7 @@
                 margin-bottom: 1.5rem;
             }
         }
-        .product-link-inactive {
+        .product-link--inactive {
             opacity: 0.3;
         }
     }
