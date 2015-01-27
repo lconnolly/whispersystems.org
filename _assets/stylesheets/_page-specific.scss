@@ -25,7 +25,7 @@
         position: absolute;
         left: 0; right: 0;
         top: 0; bottom: 0;
-        margin: 12% 5%;
+        margin: 12% 5% 0;
         text-align: center;
     }
     h1 {
@@ -37,7 +37,7 @@
         border-color: rgba(255,255,255,0.7);
         &:hover {
             color: $charcoal;
-            background-color: rgba(255,255,255,0.7);
+            background-color: rgba(255,255,255,0.8);
             border-color: rgba(255,255,255,0);
         }
     }
@@ -55,6 +55,8 @@
         @include col;
         @include col-12;
         text-align: center;
+        padding: 0;
+        margin-bottom: 2.25rem;
     }
     .testimonial {
         @include col;

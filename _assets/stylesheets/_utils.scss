@@ -99,13 +99,6 @@
             border-radius: $radius;
 }
 
-@mixin rotate($deg) {
-    -webkit-transform: rotate(#{$deg}deg);
-    -moz-transform: rotate(#{$deg}deg);
-    -o-transform: rotate(#{$deg}deg);
-    transform: rotate(#{$deg}deg);
-}
-
 @mixin transition($transition-property, $transition-time, $method) {
     -webkit-transition: $transition-property $transition-time $method;
     -moz-transition: $transition-property $transition-time $method;
@@ -113,3 +106,21 @@
     -o-transition: $transition-property $transition-time $method;
     transition: $transition-property $transition-time $method;
 }
+
+// Transforms
+
+@mixin transform($transforms) {
+	   -moz-transform: $transforms;
+	     -o-transform: $transforms;
+	    -ms-transform: $transforms;
+	-webkit-transform: $transforms;
+          transform: $transforms;
+}
+
+@mixin rotate ($deg) {
+    @include transform(rotate(#{$deg}deg));
+}
+
+@mixin scale($scale) {
+    @include transform(scale($scale));
+} 
