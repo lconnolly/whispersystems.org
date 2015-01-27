@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <title>{{ page.title }} | Open Whisper Systems</title>
-    <meta name="description" content="">
+    {% if page.meta-description %}
+    <meta name="description" content="{{ page.meta-description }}">
+    {% endif %}
     
     <!-- RSS -->
     <link rel="alternate" type="application/rss+xml" href="/blog/rss/" title="RSS for Open Whisper Systems Blog"/>

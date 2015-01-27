@@ -125,6 +125,15 @@
 }
 
 // View Headers
+.view-header {
+    background: $charcoal;
+}
+
+.view-products .view-header {
+    background: $charcoal url(asset_path('view-headers/header-products.jpg')) no-repeat center top;
+    background-size: cover;
+}
+
 .view-blog-listing .view-header {
     background: $charcoal url(asset_path('view-headers/header-blog.jpg')) no-repeat center top;
     background-size: cover;
@@ -234,9 +243,10 @@
             a {
                 @include transition(all, $link-transition-timing, ease-in-out);
                 border-bottom: 2px solid lighten($sky, 30%);
+                color: $copy;
                 &:hover {
                     border-color: $sky;
-                    color: $charcoal;
+                    color: $sky;
                 }
                 &:focus,
                 &:active {
@@ -378,4 +388,56 @@
     }
 }
 
-
+// Products
+.product {
+    @include container;
+    padding-top: $margin-width;
+    padding-bottom: $margin-width;
+    &.product-odd {
+        background-color: $sand;
+    }
+    .row {
+        @include row;
+    }
+    .product--devices {
+        @include col;
+        @include col-4;
+        text-align: center;
+    }
+    .product--details {
+        @include col;
+        @include col-8;
+        h2 {
+            padding: 2.25rem 0 1.5rem;
+            font-size: 2rem;
+            line-height: 2.25rem;
+            color: $shale;
+        }
+        p {
+            margin-bottom: 1.5rem;
+            font-size: 1.125rem;
+            line-height: 1.5rem;
+            color: $copy;
+        }
+    }
+    .product-links {
+        padding-top: 2.25rem;
+        a,
+        .product-link-inactive {
+            @include col;
+            @include col-4;
+            text-align: center;
+            img,
+            span {
+                display: block;
+                margin: 0 auto;
+            }
+            img {
+                margin-bottom: 1.5rem;
+            }
+        }
+        .product-link-inactive {
+            opacity: 0.3;
+        }
+    }
+}

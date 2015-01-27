@@ -1,0 +1,45 @@
+---
+layout: root
+body-class: "products"
+smartbanner: true
+title: Products
+meta-description: "Open Whisper Systems apps are secure, easy-to-use communication tools to protect your privacy."
+---
+
+<header class="view-header">
+    <div class="view-header--content">
+        <h1>{{ page.title }}</h1>
+    </div><!-- view-header-content -->
+</header>
+
+<section class="product product-odd">
+    <div class="row">
+        <div class="product--devices">
+            <img src="{% asset_path products/devices-text.png %}"/>
+        </div><!-- devices -->
+        <div class="product--details">
+            <h2>Private Texting &amp; Chat</h2>
+            <p>A full replacement for the default text messaging application, offering completely private texting, even if you lose your phone.</p>
+            <div class="product-links">
+                <a href="https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms&hl=en" class="android" rel="nofollow">
+                    <img src="{% asset_path products/logo-android.svg %}"/>
+                    <span>
+                        <img src="{% asset_path products/store-play.png %}"/>
+                    </span>
+                </a>
+                <a href="https://itunes.apple.com/us/app/signal-private-messenger/id874139669?mt=8" class="apple" rel="nofollow">
+                    <img src="{% asset_path products/logo-apple.svg %}"/>
+                    <span>
+                        <img src="{% asset_path products/store-app.png %}"/>
+                    </span>
+                </a>
+                <div href="#" class="chrome product-link-inactive" title="Coming Soon to Google Chrome">
+                    <img src="{% asset_path products/logo-chrome.svg %}"/>
+                    <span>
+                        <img src="{% asset_path products/store-chrome.png %}"/>
+                    </span>
+                </div>
+            </div><!-- product-links -->
+        </div><!-- product-details -->
+    </div><!-- row -->
+</section>
