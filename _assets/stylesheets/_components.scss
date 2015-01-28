@@ -77,6 +77,9 @@ textarea { resize: vertical; }
             color: white;
         }
     }
+    &.form-row-submit {
+        margin-bottom: 0;
+    }
 }
 
 // Buttons

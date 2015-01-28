@@ -20,15 +20,6 @@ body {
     background-color: $off-white;
 }
 
-a {
-    color: $sky;
-    text-decoration: none;
-}
-
-img {
-    max-width: 100%;
-}
-
 h1,h2,h3,h4,h5 {
     font-family: $font-stack-lato;
     font-weight: 400;
@@ -59,9 +50,19 @@ h3 {
 }
 
 p {
+    margin-bottom: 1.5rem;
     font-size: 1rem;
     line-height: 1.5rem;
     color: $copy;
+}
+
+a {
+    color: $sky;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
 }
 
 pre,

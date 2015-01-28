@@ -1,86 +1,30 @@
 ---
 layout: root
-title: About Us
-smartbanner: true
+title: About
+body-class: "about"
+meta-description: "Founded in 2010 by security researcher Moxie Marlinspike and roboticist Stuart Anderson, Whisper Systems develops secure protocols that power encrypted voice calls and encrypted text messaging. In 2013, Whisper Systems became Open Whisper Systems, a community of dedicated developers and contributors working on the cutting edge of private, secure communication."
 ---
-<section id="about">
-  <div class='container'>
-    <span class="arrow"></span>
-    <h2>About us</h2>
-  </div>
 
-  <div class="about">
-    <div class="org">
-      <div>Our mission is to make private communication simple.</div>
-      <p>Open Whisper Systems is both a large community of Open Source
-      contributors, as well as a small team of dedicated developers.  Together,
-      we're working to advance the state of the art for secure communication,
-      while simultaneously making it easy for everyone to use.</p>
-
-      <p>
-        <strong>Are you owned by Twitter?</strong>
-        <em class='posi'><a href="http://support.whispersystems.org/customer/portal/articles/1474591">No</a></em>.<br />        
-        <strong>Are you a commercial project?</strong>
-        <em class='posi'><a href="http://support.whispersystems.org/customer/portal/questions/5908897-why-not-charge-small-price-">Nope</a></em>. <br/>        
-        <strong>Can you read my messages?</strong>
-        <em class='posi'><a href="http://support.whispersystems.org/customer/portal/articles/1473575-is-it-secure-can-i-trust-it-">No way</a></em>.<br/>        
-        <strong>Can I help?</strong>
-        <em class='posi'><a href="http://support.whispersystems.org/customer/portal/articles/1476178-how-do-i-help">Yes!</a></em><br/>
-        <strong>Is there support?</strong>
-        <em class='posi'><a href="http://support.whispersystems.org/">Yes!</a></em>
-      </p>
-    </div>
-
-    <div class='bios'>
-      <div class='bio'>
-        <img src='{% asset_path headshots/moxie.jpg %}' alt='Moxie Marlinspike'>
-        <h3><a href="https://twitter.com/moxie">Moxie Marlinspike</a></h3>
-        <p>Moxie Marlinspike works on the protocols, the Android clients, and the server software. He has been contributing to Open Whisper Systems since it was Whisper Systems, formerly ran the product security team at Twitter, started the first cloud-based password cracking service, and has published a number of attacks on secure protocols like SSL and MS-CHAPv2.</p>
-      </div>
-      <div class='bio'>
-        <img src='{% asset_path headshots/jake.jpg %}' alt='Jake McGinty'>
-        <h3><a href="https://twitter.com/clpwn">Jake McGinty</a></h3>
-        <p> Jake works hard to keep the Android client bug-free and lookin
-            good. His many titles include MMS expert, usability enthusiast, circuit
-            lecturer, and mohawk afficionado. In his freetime he hacks hardware,
-            spins diabolos, and rides motorcycles.
-        </p>
-      </div>
-      <div class='bio'>
-        <img src='{% asset_path headshots/lilia.jpg %}' alt='Lilia Kai'>
-        <h3><a href="https://twitter.com/liliakai">Lilia Kai</a></h3>
-        <p> Lilia develops the <a href='https://github.com/WhisperSystems/TextSecure-Browser/'>browser extension</a>
-        and maintains the website. She comes to Whisper Systems from the <a href='https://eff.org'>EFF</a>, where she
-        built online advocacy tools for activists fighting for a better internet. In her spare time she practices
-        yoyo tricks and <a href='https://github.com/HearthHouse'>DIY home automation</a>. She also serves as chief of
-        <a href='http://www.stickermule.com/marketplace/1057-open-whisper-systems'>sticker</a>
-        operations<a href='https://pic.twitter.com/UNCXqMZcj5'>.</a></p>
-      </div>
-      <div class='bio'>
-        <img src='{% asset_path headshots/rhodey.png %}' alt='Rhodey Orbits'>
-        <h3><a href="https://twitter.com/notrhodey">Rhodey Orbits</a></h3>
-        <p>Rhodey Orbits maintains the Flock Android client and server deployments while simultaneously limping along on development of Zones. They have a satellite in orbit and have been working in computer security for seven years. Rhodey dreams of one day reclaiming the @rhodey handle on Twitter.</p>
-      </div>
-      <div class='bio'>
-        <img src='{% asset_path headshots/matt.jpg %}' alt='Matt Corallo'>
-        <h3><a href="https://twitter.com/thebluematt">Matt Corallo</a></h3>
-        <p>Matt is co-developing the JavaScript-based browser client, focusing on the protocol and messaging backends. He daylights as a Bitcoin developer and co-moonlights as a secure hardware researcher.</p>
-      </div>
-      <div class='bio'>
-        <img src='{% asset_path headshots/christine.jpg %}' alt='Christine Corbett Moran'>
-        <h3><a href="https://twitter.com/corbett">Christine Corbett Moran</a></h3>
-        <p>Christine co-leads the iOS development team, with a focus on TextSecure functionality. She is an MIT graduate with 11 years of software engineering experience and has been developing mobile applications for social good for the past 6 years. She daylights as an astrophysicist, and hopes to go to Mars one day.</p>
-      </div>
-      <div class='bio'>
-        <img src='{% asset_path headshots/fred.jpg %}' alt='Frederic Jacobs'>
-        <h3><a href="https://twitter.com/FredericJacobs">Frederic Jacobs</a></h3>
-        <p>Frederic is co-leading the iOS development. He daylights at the Swiss Institute of Technology (EPFL) and plays around with cryptography, censorship resistance and blockchains.</p>
-      </div>
-      <div class='bio'>
-        <img src='{% asset_path headshots/tyler.jpg %}' alt='Tyler Reinhard'>
-        <h3><a href="https://twitter.com/abolishme">Tyler Reinhard</a></h3>
-        <p>Tyler oversees brand development and design, and works directly on Signal for iOS and the browser. If he's not complaining about the weather, he's usually advocating on behalf of our users. He is also the founder of <a href="http://maskmag.com">Mask Magazine</a>, a youth culture + style magazine. </p>
-      </div>
-    </div>
-  </div>
+<section class="about-hero">
+    <div class="row">
+        <div class="about-hero-content">
+            <h1>We build secure, easy-to-use communication tools to protect your privacy.</h1>
+            <p>Founded in 2010 by security researcher Moxie Marlinspike and roboticist Stuart Anderson, Whisper Systems develops secure protocols that power encrypted voice calls and encrypted text messaging. In 2013, Whisper Systems became Open Whisper Systems, a community of dedicated developers and contributors working on the cutting edge of private, secure communication.</p>
+            <p>Open Whisper Systems receives funding from the Freedom of the Press Foundation, the Knight Foundation, the Shuttleworth Foundation and the Open Technology Fund, and is not owned by Twitter.</p>
+        </div><!-- about-hero-content -->
+    </div><!-- row -->
 </section>
+
+<section class="about-tech">
+    <div class="row">
+        <h2>Our Technology</h2>
+        <div class="about-tech--diagram">
+            <img src="{% asset_path about/about-tech-diagram.png %}"/>
+        </div><!-- about-tech-diagram -->
+        <div class="about-tech--details">
+            <p>As the creators of forward and future secrecy, we work are working at the forefront of advanced cryptographic protocol development.</p>
+            <p>Our technologies have been recognized by the Electronic Frontier Foundation, whistleblower Edward Snowden, and internal NSA documents for providing secure, encrypted communications that protect your privacy.</p>
+        </div><!-- about-tech-details -->
+    </div><!-- row -->
+</section><!-- about-tech -->
+

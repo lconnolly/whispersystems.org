@@ -52,8 +52,19 @@
 // Lap / Tablet
 @media all and (min-width: 820px) {
     // Layout
+    p,
+    ul,
+    ol {
+        font-size: 1.25rem;
+        line-height: 1.875rem;
+        margin-bottom: 1.875rem;
+    }
+    .nav-primary ul {
+        margin-bottom: 0;
+    }
     .footer .footer--nav ul {
         @include col-4;
+        margin-bottom: 0;
     }
     // Components
     .view-header h1 {

@@ -194,9 +194,6 @@
             color: $shale;
         }
         p {
-            margin-bottom: 1.5rem;
-            font-size: 1.125rem;
-            line-height: 1.5rem;
             color: $copy;
         }
     }
@@ -258,6 +255,73 @@
         }
     }
 }
+
+// About Page
+.about-hero {
+    @include container;
+    background-color: $sky;
+    .about-hero-content {
+        @include row;
+        margin: 3.75rem 0;
+        background: transparent url(asset_path('about/about-hero-bg.gif')) no-repeat center center;
+        background-size: contain;
+    }
+    h1,
+    p {
+        @include col;
+        @include col-center;
+    }
+    h1 {
+        @include col-12;
+        margin-top: 1.5rem;
+        margin-bottom: 3rem;
+        padding: 0 2%;
+        font-size: 3rem;
+        line-height: 3.375rem;
+        text-align: center;
+        color: white;
+    }
+    p {
+        @include col-10;
+        color: #dfecfb;
+    }
+}
+
+.about-tech {
+    @include container;
+    padding-bottom: 3rem;
+    &:before {
+        content: '';
+        display: block;
+        position: absolute;
+        left: 50%;
+        width: 0;
+        height: 1.125rem;
+        margin-left: -1.6875rem;
+        border-width: 1.6875rem 2.25rem 0;
+        border-color: $sky transparent;
+        border-style: solid;
+    }
+    .row {
+        @include row;
+    }
+    h2 {
+        @include col;
+        @include col-12;
+        @include col-center;
+        text-align: center;
+        padding-top: 3.75rem;
+    }
+    .about-tech--diagram,
+    .about-tech--details {
+        @include col;
+        @include col-6;
+    }
+    .about-tech--diagram {
+        text-align: center;
+    }
+}
+
 
 // Blog Listing
 .view-blog-listing {
