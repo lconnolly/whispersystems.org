@@ -3,13 +3,81 @@
 */
 
 // Forms
-::-webkit-input-placeholder {   color: $copy-light; }
-::-moz-placeholder {            color: $copy-light; } /* FF 19+ */
-:-moz-placeholder {             color: $copy-light; } /* FF 18- */
-:-ms-input-placeholder {        color: $copy-light; }
+::-webkit-input-placeholder {
+    color: $copy-light;
+    line-height: 1.125rem;
+}
+::-moz-placeholder { /* FF 19+ */
+    color: $copy-light;
+    line-height: 1.125rem;
+}
+:-moz-placeholder { /* FF 18- */
+    color: $copy-light;
+    line-height: 1.125rem;
+}
+:-ms-input-placeholder {
+    color: $copy-light;
+    line-height: 1.125rem;
+}
 
 label { cursor: pointer; }
 textarea { resize: vertical; }
+
+.form form {
+    margin: 1.5rem 0;
+    padding: 1.5rem;
+    border: 1px dotted $burlap;
+    .form-hp {
+        display: none; // Hidden Anti-Spam "Honey Pot" Field
+    }
+}
+.form-row {
+    margin-bottom: 1.5rem;
+    label {
+        display: block;
+        margin-bottom: 0.375rem;
+        font-size: 0.8125rem;
+        line-height: 1.125rem;
+        font-weight: 700;
+        font-family: $font-stack-lato;
+        text-transform: uppercase;
+        color: $charcoal;
+    }
+    input,
+    textarea {
+        @include border-radius(4px);
+        @include transition(all, $button-transition-timing, ease-in-out);
+        display: inline-block;
+        padding: 0.75rem 1rem;
+        box-shadow: inset 0px 1px 1px lighten($burlap, 15%);
+        outline: none;
+        border: 1px solid $sand;
+        font-family: $font-stack-bitter;
+        font-size: 0.875rem;
+        line-height: 0.875rem;
+        &:focus {
+            border: 1px solid $sky;
+        }
+    }
+    textarea {
+        width: 100%;
+        line-height: 1.25rem;
+    }
+    input[type="submit"] {
+        box-shadow: none;
+        border: 2px solid $sky;
+        color: $sky;
+        background: transparent;
+        cursor: pointer;
+        text-transform: uppercase;
+        letter-spacing: $letter-space-wide;
+        &:hover,
+        &:focus {
+            background-color: $sky;
+            color: white;
+        }
+    }
+}
 
 // Buttons
 

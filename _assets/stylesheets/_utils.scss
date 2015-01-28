@@ -53,6 +53,12 @@
     padding-right: $grid-gutter;
 }
 
+@mixin col-center {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 @mixin col-12 {
     width: 100%;
 }
@@ -79,12 +85,6 @@
 
 @mixin col-3 {
     width: 25%;
-}
-
-@mixin col-center {
-    float: none;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 

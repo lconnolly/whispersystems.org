@@ -2,6 +2,51 @@
 ** Page-Specific Styles
 */
 
+// View Headers
+.view-header {
+    background: $charcoal;
+}
+
+.view-products .view-header {
+    background: $charcoal url(asset_path('view-headers/header-products.jpg')) no-repeat center top;
+    background-size: cover;
+}
+
+.view-contact .view-header {
+    background-color: $sky;
+    .view-header--content {
+        background: transparent;
+    }
+}
+
+.view-blog-listing .view-header {
+    background: $charcoal url(asset_path('view-headers/header-blog.jpg')) no-repeat center top;
+    background-size: cover;
+    .rss-twitter {
+        @include clearfix;
+        position: absolute;
+        bottom: 0;
+        left: $grid-gutter; right: $grid-gutter;
+        padding: 1.125rem 0;
+        a {
+            @include transition(opacity, $link-transition-timing, ease-in-out);
+            display: inline-block;
+            float: left;
+            opacity: 0.5;
+            &:hover {
+                opacity: 1;
+            }
+            &.twitter {
+                float: right;
+            }
+            img {
+                display: inline-block;
+            }
+        }
+    }
+}
+
+
 // Homepage
 .home-hero {
     position: relative;
@@ -121,43 +166,6 @@
         border: 2px solid $charcoal;
         img {
             max-width: auto;
-        }
-    }
-}
-
-// View Headers
-.view-header {
-    background: $charcoal;
-}
-
-.view-products .view-header {
-    background: $charcoal url(asset_path('view-headers/header-products.jpg')) no-repeat center top;
-    background-size: cover;
-}
-
-.view-blog-listing .view-header {
-    background: $charcoal url(asset_path('view-headers/header-blog.jpg')) no-repeat center top;
-    background-size: cover;
-    .rss-twitter {
-        @include clearfix;
-        position: absolute;
-        bottom: 0;
-        left: $grid-gutter; right: $grid-gutter;
-        padding: 1.125rem 0;
-        a {
-            @include transition(opacity, $link-transition-timing, ease-in-out);
-            display: inline-block;
-            float: left;
-            opacity: 0.5;
-            &:hover {
-                opacity: 1;
-            }
-            &.twitter {
-                float: right;
-            }
-            img {
-                display: inline-block;
-            }
         }
     }
 }
@@ -437,6 +445,23 @@
                     color: white;
                 }
             }
+        }
+    }
+}
+
+// Contact
+.view-contact {
+    section{
+        @include container;
+        padding-top: 2.25rem;
+        padding-bottom: 2.25rem;
+        .row {
+            @include row;
+        }
+        .contact-form {
+            @include col;
+            @include col-6;
+            @include col-center;
         }
     }
 }
