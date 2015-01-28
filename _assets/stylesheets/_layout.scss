@@ -84,7 +84,7 @@ pre {
     .logo {
         float: left;
         display: block;
-        margin: 2.25rem $margin-width;
+        margin: 2.25rem $grid-margin;
         a {
             display: block;
             width: 88px;
@@ -101,7 +101,7 @@ pre {
         float: right;
         width: 48px;
         height: 48px;
-        margin: 3.375rem $margin-width $margin-width;
+        margin: 3.375rem $grid-margin $grid-margin;
         img {
             display: block;
             width: 48px;
@@ -117,22 +117,22 @@ pre {
         background: $charcoal;
         ul {
             float: right;
-            padding: 3.75rem $margin-width 7.5rem;
+            padding: $grid-margin $grid-margin 3rem;
             text-align: right;
-            font-size: 1.875rem;
+            font-size: 1.125rem;
             line-height: 2.25rem;
             font-family: $font-stack-lato;
             font-weight: 700;
             text-transform: uppercase;
             li {
                 display: block;
-                margin-bottom: 2rem;
+                margin-bottom: 1.5rem;
             }
             a {
                 @include transition(color, $link-transition-timing, ease-in-out);
                 position: relative;
                 display: inline-block;
-                padding: 1.5rem 0;
+                padding: 0.75rem 0;
                 color: $burlap;
                 letter-spacing: $letter-space-wide;
                 
@@ -165,11 +165,11 @@ pre {
     background: lighten($charcoal, 10%);
     .footer--nav {
         @include row;
-        padding-top: $margin-width;
+        padding-top: 2.5rem;
         ul {
             @include col;
             @include col-12;
-            padding-bottom: $margin-width;
+            padding-bottom: $grid-margin;
             li {
                 display: block;
                 padding-bottom: 1.5rem;
