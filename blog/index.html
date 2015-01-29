@@ -25,11 +25,11 @@ meta-description: "Articles from the Open Whisper Systems team on privacy, encry
         <div class="article-content">
             <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
             <p class="blog-post-meta">
-                {% if post.author %}
+                {% if post.author != "" %}
                     {{ post.author }}
+                    &nbsp;&#8211;&nbsp;
                 {% endif %}
-                &nbsp;&#8211;&nbsp;
-                {{ post.date | date: "%B %-d, %Y" }}
+                <time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%B %-d, %Y" }}</time>
             </p>
             {% if post.content contains '<!--more-->' %}
             	{{ post.content | split:'<!--more-->' | first }}

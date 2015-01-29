@@ -7,13 +7,13 @@ body-class: "blog-post"
     <header>
         <h1>{{ page.title }}</h1>
         <div class="blog-post--meta">
-            {% if page.author %}
+            {% if page.author != "" %}
                 {% if page.author-url %}<a href="{{ page.author-url }}">{% endif %}
                 {{ page.author }}
                 {% if page.author-url %}</a>{% endif %}
+                &nbsp;&#8211;&nbsp;
             {% endif %}
-            &nbsp;&#8211;&nbsp;
-            {{ page.date | date: "%B %-d, %Y" }}
+            <time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%B %-d, %Y" }}</time>
         </div>
         <a href="/blog" class="blog-main"><img src="{% asset_path icons/list.svg %}"/></a>
         <a href="#" id="blog-share-toggle" class="share"><img src="{% asset_path icons/share.svg %}"/></a>
