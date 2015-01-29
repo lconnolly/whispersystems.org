@@ -47,6 +47,12 @@
             @include col-4;
         }
     }
+    // About
+    .about-timeline {
+        ol {
+            @include col-10;
+        }
+    }
 }
 
 // Lap / Tablet
@@ -84,6 +90,14 @@
     .home-testimonials .testimonial {
         @include col-4;
         margin-bottom: 0;
+    }
+    // About
+    .about-tech {
+        .about-tech--diagram,
+        .about-tech--details {
+            @include col;
+            @include col-6;
+        }
     }
     // Blog Post
     .view-blog-post {
@@ -204,6 +218,12 @@
             text-align: left;
         }
     }
+    // About
+    .about-timeline {
+        ol {
+            @include col-8;
+        }
+    }
     .view-blog-listing {
         article .article-content {
             @include col-8;
@@ -244,5 +264,10 @@
 
 // Monitor / Full Display
 @media all and (min-width: 1280px) {
-
+    // About
+    .about-timeline {
+        ol {
+            @include col-6;
+        }
+    }
 }

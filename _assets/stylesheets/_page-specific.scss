@@ -305,20 +305,79 @@
     .row {
         @include row;
     }
-    h2 {
-        @include col;
-        @include col-12;
-        @include col-center;
-        text-align: center;
-        padding-top: 3.75rem;
-    }
+    h2,
     .about-tech--diagram,
     .about-tech--details {
         @include col;
-        @include col-6;
+        @include col-center;
+        @include col-12;
+    }
+    h2 {
+        padding-top: 3.75rem;
+        text-align: center;
     }
     .about-tech--diagram {
+        margin-bottom: 2.25rem;
         text-align: center;
+        img {
+            width: 420px;
+        }
+    }
+}
+
+.about-timeline {
+    @include container;
+    padding-bottom: 3rem;
+    background-color: $sand;
+    &:before {
+        content: '';
+        display: block;
+        position: absolute;
+        left: 50%;
+        width: 0;
+        height: 1.125rem;
+        margin-left: -1.6875rem;
+        border-width: 1.6875rem 2.25rem 0;
+        border-color: $off-white transparent;
+        border-style: solid;
+    }
+    .row {
+        @include row;
+    }
+    h2,
+    ol {
+        @include col;
+        @include col-center;
+        @include col-12;
+    }
+    h2 {
+        padding-top: 3.75rem;
+        text-align: center;
+    }
+    ol {
+        color: $copy;
+        li {
+            margin-bottom: 1.5rem;
+            &:after {
+                content: '';
+                display: block;
+                margin: 0.75rem auto;
+                width: 0.125rem;
+                height: 0.75rem;
+                background-color: $burlap;
+            }
+            &:last-child:after {
+                display: none;
+            }
+        }
+        span {
+            display: block;
+            margin-bottom: 0.75rem;
+            text-align: center;
+            font-family: $font-stack-lato;
+            font-weight: 700;
+            color: $sky;
+        }
     }
 }
 
