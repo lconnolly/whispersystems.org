@@ -31,6 +31,6 @@ If you're interested in the project, here are some ways to help out Open Whisper
   a current list of areas we need help with (as if it isn't already obvious).
 * **Funding.** Lastly, if you don't have any time to spare, but still want to contribute, we accept Bitcoin:
   
-  <a class="coinbase-button" data-code="d29fd4c37ca442393e32fdcb95304701" data-button-style="donation_large" href="https://coinbase.com/checkouts/d29fd4c37ca442393e32fdcb95304701">Donate Bitcoins</a>
+<a class="coinbase-button" data-code="d29fd4c37ca442393e32fdcb95304701" data-button-style="donation_large" href="https://coinbase.com/checkouts/d29fd4c37ca442393e32fdcb95304701">Donate Bitcoins</a>
 
 <script src="https://coinbase.com/assets/button.js" type="text/javascript"> </script>

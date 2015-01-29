@@ -18,7 +18,7 @@ over time you improve, spilling a little less blood every time.
 
 <!--more-->
 
-#### A Hint of Secure Sync
+## A Hint of Secure Sync
 
 Early this Fall I started work on a new Open Whisper Systems project which at
 this time we're referring to as Secure Sync. Secure Sync aims to be a drop-in
@@ -38,7 +38,7 @@ our server or client design is anything revolutionary or terribly interesting, I
 did happen across a prime example of the dangers inherit in social graphs, The
 Android Contacts Provider, The Social Graph Collider.  
 
-#### The Social Graph Collider
+## The Social Graph Collider
 
 <img src="http://developer.android.com/images/providers/contacts_structure.png" alt="Android developer documentation"/>
 
@@ -76,7 +76,7 @@ social graph with any app that asks** *or* **don't color the user's contacts app
 with social graph data**. I have yet to find an social network that chose to
 integrate deeply with the Android contact app and personally I'm glad.  
 
-#### What We're Missing Out On
+## What We're Missing Out On
 
 Back in ~2011 the API for decorating Android's contact app was written such
 that apps could display information to the user without sharing it with
@@ -101,7 +101,7 @@ The situation with Android's [Calendar Provider](https://developer.android.com/g
 is very similar and I think we're missing out on some cool things there
 too.  
 
-#### Don't Be Fooled
+## Don’t Be Fooled
 
 At first glance Android's lack of access control policy seems like a
 win for open access and thus a win for users, but the data being

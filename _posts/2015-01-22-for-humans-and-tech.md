@@ -37,7 +37,7 @@ So why am I here and what am I doing?
 
 >I do not agree with what you have to say, but I’ll defend to the death your right to say it. - Voltaire   
 
-### Private communication throughout history
+## Private communication throughout history
 
 Since the development of writing 5000 years ago, humankind has relied on various means (often through great
 effort and danger) to keep correspondence private and secure (confidential, untampered, and authenticated).
@@ -66,7 +66,7 @@ Fast forward to today’s age. Though the form factor has changed, the challenge
 private communication remain [highly relevant](https://whispersystems.org/blog/encryption-encryption-everywhere/)
 and have become even more complex in the digital world we live in.
 
-### Having a point of view
+## Having a point of view
 
 The folks at Open Whisper Systems truly believe that state-of-the-art encryption is not just for the
 techies and the paranoids of the world. It's meant to be available and simple to use for anyone who
@@ -87,7 +87,7 @@ Various mentors of mine have told me to always have a point of view with my desi
 but I’m taking a stance on our right to private communication, and I’m honored to work on this project, however small
 my contribution might be.
 
-###Workation is better than a regular vacation
+## Workation is better than a regular vacation
 
 <img src="/blog/images/yoko-filming.jpg" class="nice" alt="Filming for a promo video"/>
 

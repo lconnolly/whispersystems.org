@@ -110,7 +110,7 @@ be inclusive for everyone involved, and will not tolerate harassment or rude beh
 - **Consent:** Any interaction with anyone at *Winter Break Of Code* should be consensual.
 
 - **Privacy:** The house we have is spacious, but not large enough for everyone to have their own private 
-room.  We will organize shared rooms based on gender, and will do our best to ensure that everyone has the space 
+room. We will organize shared rooms based on gender, and will do our best to ensure that everyone has the space 
 they need.
 
 ## Timeline
@@ -119,4 +119,4 @@ We want to have selected all the proposals we have space for by **November 30th,
 proposal between now and then. We'll be accepting proposals as we go, however, so we might run out of space before then; 
 the earlier you get something in the better.
 
-We're excited, and hope you will be too!
+We’re excited, and hope you will be too!

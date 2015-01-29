@@ -17,7 +17,7 @@ The first few days at the Winter Break of Code, I closed out some core issues, f
 
 Circling back to the new attendees, I've been asked several times how Open Whisper Systems manages to do so much with so few people (Flock, TextSecure, Redphone, Signal, Protocol, Hawaiian tour company...) all involving server side, client side, organizational and theoretical considerations. It can't be pinpointed, but the combination of Moxie's leadership by example, the intense start to getting involved (come to Hawaii to hack with strangers!), and the diversity, quality and passion of the attendees of our unique jumpstart goes a long way. We have a routine in Hawaii: standups, runs on the beach, hikes, sushi bets, surfing, a budding appreciation for the [movie Hackers](http://www.imdb.com/title/tt0113243/) and community dinners with philosophical conversations all surround an intense code and design sprint to ship usable privacy tools. It's clear that while Open Whisper Systems does a lot with a small core, we need more help. I hope that the Winter of Code spirit extends far beyond those involved in Hawaii and into the rest of the world in the Spring. In 2015, we can send a clear signal.
 
-# Signal iOS beta
+## Signal iOS beta
 <img src="/blog/images/wboc-signal-sunset.png" class="nice" />
 
 -- [Christine Corbett](https://twitter.com/corbett)

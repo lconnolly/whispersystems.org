@@ -58,6 +58,16 @@
 // Lap / Tablet
 @media all and (min-width: 820px) {
     // Layout
+    h2 {
+        padding: 2.25rem 0;
+        font-size: 1.875rem;
+        line-height: 2.25rem;
+    }
+    h3 {
+        padding: 1.875rem 0 1.5rem;
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+    }
     p,
     ul,
     ol {
@@ -159,7 +169,11 @@
                 @include col-10;
                 @include col-center;
             }
+            header .blog-post--meta {
+                margin-bottom: 1.5rem;
+            }
             h1 {
+                padding-bottom: 1.875rem;
                 font-size: 2.625rem;
                 line-height: 3rem;
             }
@@ -287,9 +301,14 @@
         }
     }
     .view-blog-listing {
-        article .article-content {
-            @include col-8;
-            @include col-center;
+        article {
+            .article-content {
+                @include col-8;
+                @include col-center;
+            }
+            h2 {
+                padding-top: 1.5rem;
+            }
         }
     }
     .view-blog-post {
@@ -302,7 +321,6 @@
                 @include col-8;
             }
             h1 {
-                padding-bottom: 1.125rem;
                 font-size: 3rem;
                 line-height: 3.75rem;
                 letter-spacing: $letter-space-tight;
@@ -318,6 +336,9 @@
                 font-size: 1.125rem;
                 span {
                     font-size: 0.875rem;
+                }
+                div {
+                    line-height: 1.5rem;
                 }
             }
         }

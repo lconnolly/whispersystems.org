@@ -31,7 +31,7 @@ I've been a "designer" on this project for a *long time*. Yet, in part because o
 
 I'd never really understood how to work that way. Chalk it up to personality or astrology or hysterics or something. I had already made my mind up about how I would approach this Winter Break of Code: embrace the chaos of the process, do my best to find a little piece of something to bite off and chew up. We had packed into the van at the airport, and were winding toward the dark mountains when my phone flashes with a notification:
 
-> Sup! Apparently we were on the same flight. I'm Riley, white t shirt holding a denim jacket by the carousel
+> Sup! Apparently we were on the same flight. I'm Riley, white t shirt holding a denim jacket by the carousel.
 
 I laughed as I read it aloud, interrupting the introductions vanside. We were already almost 20 minutes from the airport. I chuckled. "Sometimes you have to iterate in the other direction," I thought. We pulled over and doubled back.
 
@@ -43,19 +43,19 @@ This wasn't the first time I'd thought about this. I've been wracking my brain f
 
 One of the nice things about our "breaks of code" is that we're all eavesdropping on each other. And I can't remember now if I was listening to [Riley's](https://www.twitter.com/rileyjshaw) conversation or he was listening to mine, but at some point he suggested [pixelapse.com](https://www.pixelapse.com), a version control app optimized explicitly for designers with visual comparison tools and contextual conversations that syncs local folders *a la* Dropbox. Most promising to me: it's designed to serve open source projects. Now, I'm hellbent on setting a good example for an open design methodology. This afternoon, I rolled up my sleeves and hit the keys. Here is an excerpt from the introduction:
 
-> ### Nomenclature and Sorting
-> Signal for iOS is a pilot program for a UX naming convention system that Open Whisper Systems is developing for open design projects. This system includes a thorough numerical description of every view, subview, and modal. Leading underscores are used to seperate relative version releases from fixed identifiers that remain unchanged from release to release. Using this system, we can refer to current and future elements and assets within the design regardless of the app version context. 
-> 
-> Each release has a version number, which functions as an organizational prefix which can be included or excluded depending on the context. Each screen flow is given a number, each screen in that flow a second number, and each subview "layer" is given a lowercase letter.   
->
-> Here is how it works:
+### Nomenclature and Sorting
+
+Signal for iOS is a pilot program for a UX naming convention system that Open Whisper Systems is developing for open design projects. This system includes a thorough numerical description of every view, subview, and modal. Leading underscores are used to seperate relative version releases from fixed identifiers that remain unchanged from release to release. Using this system, we can refer to current and future elements and assets within the design regardless of the app version context. 
+
+Each release has a version number, which functions as an organizational prefix which can be included or excluded depending on the context. Each screen flow is given a number, each screen in that flow a second number, and each subview "layer" is given a lowercase letter.   
+
+Here is how it works:
 
     [major].[minor]_[flow].[view][subview]
     [major].[minor]_[flow].[view]-[modal]
     [major].[minor]_[flow].[view]-[modal][subview]
 
->
-> This system also allows us to keep our mockup files organized, and maintain confidence in asset and documentation "permalinks" using the Pixelapse locations. Here is the directory structure we use:
+This system also allows us to keep our mockup files organized, and maintain confidence in asset and documentation “permalinks” using the Pixelapse locations. Here is the directory structure we use:
 
     signal-ios/
     ├── docs/

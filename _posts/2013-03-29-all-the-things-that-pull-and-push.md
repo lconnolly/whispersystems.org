@@ -59,7 +59,7 @@ so here goes:
 
 > For Jacques Lacan, an idiot is someone who believes in their immediate identity with their self; "like a king who believes he is a king."
 
-## Two tips for the idiots.
+## Two tips for the idiots
 
 ### Installing Ruby on OS X 10.8, Mountain Lion
 

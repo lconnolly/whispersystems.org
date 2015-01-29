@@ -129,7 +129,7 @@ Doing rolling upgrades of the switch software is simple: tell the switch to "dra
 connections to complete), then shut it down, push the update, and bring it back up.  This can all be automated, and is fully 
 transparent to connecting clients.  Any incoming connections will simply end up multi-connecting somewhere else.
 
-# The Result
+## The Result
 
 All together, we have a fairly simple infrastructure for facilitating low-latency and highly-available calls.  We deploy switches 
 globally, divide them up into DNS GSLB regions, and then have clients include multi-connect logic to those switches.  When a 

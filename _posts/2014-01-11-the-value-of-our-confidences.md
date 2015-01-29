@@ -9,13 +9,13 @@ author-url: "https://twitter.com/abolishme"
 
 <img src="/blog/images/wboc-tyler-jump.png" alt="Jumping off the pier at Hanalei Bay" />
 
-### Understanding digital privacy under capitalism
+## Understanding digital privacy under capitalism
 
 > If commodities could speak, they would say this: our use-value may interest men \[sic\], but it does not belong to us as objects. What does belong to us as objects, however, is our value. Our own intercourse as commodities proves it. We relate to each other merely as exchange-values. 
 
 -- Marx, *Capital: A Critique of Political Economy, Vol 1*.
 
-#### Thus spake the commodity
+### Thus spake the commodity
 
 Marx saw modernity more accutely than most of his contemporaries, and provided a description of capitalism that remains, in my opinion, quite useful.
 
@@ -27,7 +27,7 @@ Imagine, as Marx expects of us in the passage above, that an "internet" commodit
 
 Anyone who has examined the business models of big players on the internet — the g, the f, the t, for example — understands what precisely they are selling, and to whom they sell. Who are the customers of these massive institutions? Not the users, as we might expect. It is in fact the advertisers who enter the marketplace to purchase these products. *What* are the products, then?
 
-#### The product is you.
+### The product is you.
 
 The evidence of our use of things, our conversations with people, our interests ... these do not attribute value to some other thing, this metadata is itself the commodity. Proof of your attention, in the form of a pageview. Proof of your relation, in the form of a follow or friending or like. Proof of your association, in the form of your conversation history.
 
@@ -39,7 +39,7 @@ In this sense, privacy is not a spatial description. It does not refer to "where
 
 Because privacy occurs on the level of exchange (and not the level of use), it is an attribute of what gives us value. In the context of the society of surviellance, the more you exchange in private, the less use value you have to them. 
 
-#### "You will know me by the trail of 'likes'."
+### "You will know me by the trail of 'likes'."
 
 > What cannot be said in language is not part of its reality; it does not exist, strictly speaking. In Lacan’s terminology, existence is a product of language: language brings things into existence (makes them part of human reality), things which had no existence prior to being ciphered, symbolized, or put into words.
 
@@ -59,7 +59,7 @@ The way we "user" commodities exchange the evidence of our *real lives* — in d
 
 <img src="/blog/images/wboc-tyler-jumped.png" alt="Action shot, mid-jump off the pier." />
 
-#### The unspeakable ideas which remain
+### The unspeakable ideas which remain
 
 What cannot be said reveals as much about the world as what is spoken. Unspeakable thoughts are defined by many individual apparatuses — taboos, biopower, the law, sexuality, gender — which comprise a much larger structure of thought. 
 
