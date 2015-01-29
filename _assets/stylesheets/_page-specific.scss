@@ -260,15 +260,18 @@
 .about-hero {
     @include container;
     background-color: $sky;
-    .about-hero-content {
+    .row {
         @include row;
-        margin: 3.75rem 0;
+    }
+    .about-hero-content {
+        margin: 2.25rem 0;
         background: transparent url(asset_path('about/about-hero-bg.gif')) no-repeat center center;
         background-size: contain;
     }
     h1,
     p {
         @include col;
+        @include col-12;
         @include col-center;
     }
     h1 {
@@ -276,13 +279,12 @@
         margin-top: 1.5rem;
         margin-bottom: 3rem;
         padding: 0 2%;
-        font-size: 3rem;
-        line-height: 3.375rem;
+        font-size: 1.875rem;
+        line-height: 2.25rem;
         text-align: center;
         color: white;
     }
     p {
-        @include col-10;
         color: #dfecfb;
     }
 }

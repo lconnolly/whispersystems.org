@@ -92,6 +92,18 @@
         margin-bottom: 0;
     }
     // About
+    .about-hero {
+        .about-hero-content {
+            margin: 4.5rem 0;
+        }
+        h1 {
+            font-size: 3rem;
+            line-height: 3.375rem;
+        }
+        p {
+            @include col-8;
+        }
+    }
     .about-tech {
         .about-tech--diagram,
         .about-tech--details {
