@@ -257,13 +257,36 @@
 }
 
 // About Page
+
+.about-tech,
+.about-team,
+.about-timeline {
+    &:before {
+        content: '';
+        display: block;
+        position: absolute;
+        left: 50%;
+        width: 0;
+        height: 1.125rem;
+        margin-left: -2.125rem;
+        border-width: 1.6875rem 2.25rem 0;
+        border-color: $sky transparent;
+        border-style: solid;
+    }
+    h2 {
+        padding-top: 3.75rem;
+        text-align: center;
+    }
+}
+
+
 .about-hero {
     @include container;
     background-color: $sky;
     .row {
         @include row;
     }
-    .about-hero-content {
+    .about-hero--content {
         margin: 2.25rem 0;
         background: transparent url(asset_path('about/about-hero-bg.gif')) no-repeat center center;
         background-size: contain;
@@ -292,17 +315,9 @@
 .about-tech {
     @include container;
     padding-bottom: 3rem;
+    background-color: white;
     &:before {
-        content: '';
-        display: block;
-        position: absolute;
-        left: 50%;
-        width: 0;
-        height: 1.125rem;
-        margin-left: -1.6875rem;
-        border-width: 1.6875rem 2.25rem 0;
         border-color: $sky transparent;
-        border-style: solid;
     }
     .row {
         @include row;
@@ -314,10 +329,6 @@
         @include col-center;
         @include col-12;
     }
-    h2 {
-        padding-top: 3.75rem;
-        text-align: center;
-    }
     .about-tech--diagram {
         margin-bottom: 2.25rem;
         text-align: center;
@@ -327,21 +338,47 @@
     }
 }
 
+.about-team {
+    @include container;
+    background-color: $off-white;
+    padding-bottom: 2.25rem;
+    &:before {
+        border-color: white transparent;
+    }
+    .row {
+        @include row;
+    }
+    h2,
+    .about-team--profile {
+        @include col;
+        @include col-12;
+    }
+    .about-team--profile {
+        position: relative;
+        margin-bottom: 3.75rem;
+        h3 {
+            padding: 1.5rem 0 0.75rem;
+            font-size: 1.125rem;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+        p {
+            max-width: 30.375rem;
+            margin: 0 auto;
+        }
+    }
+}
+
 .about-timeline {
     @include container;
     padding-bottom: 3rem;
     background-color: $sand;
     &:before {
-        content: '';
-        display: block;
-        position: absolute;
-        left: 50%;
-        width: 0;
-        height: 1.125rem;
-        margin-left: -1.6875rem;
-        border-width: 1.6875rem 2.25rem 0;
         border-color: $off-white transparent;
-        border-style: solid;
     }
     .row {
         @include row;
@@ -351,10 +388,6 @@
         @include col;
         @include col-center;
         @include col-12;
-    }
-    h2 {
-        padding-top: 3.75rem;
-        text-align: center;
     }
     ol {
         color: $copy;
@@ -456,6 +489,7 @@
         .article-content {
             @include col;
             @include col-12;
+            padding-bottom: 3rem;
         }
         header {
             position: relative;
@@ -511,6 +545,7 @@
             }
         }
         footer {
+            @include clearfix;
             a {
                 display: block;
                 width: 50%;

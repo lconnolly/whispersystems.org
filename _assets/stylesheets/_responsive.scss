@@ -93,7 +93,7 @@
     }
     // About
     .about-hero {
-        .about-hero-content {
+        .about-hero--content {
             margin: 4.5rem 0;
         }
         h1 {
@@ -109,6 +109,45 @@
         .about-tech--details {
             @include col;
             @include col-6;
+        }
+    }
+    .about-team {
+        .about-team--profile {
+            @include col-6;
+            overflow: hidden;
+            img {
+                width: 100%;
+                max-width: auto;
+            }
+            .profile--details {
+                @include transition(opacity, $button-transition-timing, ease-in-out);
+                position: absolute;
+                opacity: 0;
+                left: $grid-gutter; right: $grid-gutter;
+                top: 0; bottom: 0;
+                padding: 0 1.875rem;
+                background-color: rgba(27,27,27,0.8);
+                color: white;
+            }
+            &:hover .profile--details {
+                opacity: 1;
+            }
+            h3,
+            p {
+                max-width: none;
+                color: white;
+            }
+            h3 {
+                padding: 1.875rem 0 1.5rem;
+                font-size: 1rem;
+                line-height: 1.125rem;
+                text-align: left;
+            }
+            p {
+                font-size: 0.8125rem;
+                line-height: 1.125rem;
+                font-family: $font-stack-bitter;
+            }
         }
     }
     // Blog Post
@@ -231,6 +270,17 @@
         }
     }
     // About
+    .about-team .about-team--profile {
+        h3 {
+            font-size: 1.25rem;
+            line-height: 1.5rem;
+            letter-spacing: $letter-space-wide;
+        }
+        p {
+            font-size: 1rem;
+            line-height: 1.5rem;
+        }
+    }
     .about-timeline {
         ol {
             @include col-8;
