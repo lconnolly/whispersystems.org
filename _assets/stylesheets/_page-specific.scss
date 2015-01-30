@@ -220,8 +220,7 @@
     }
 }
 
-// About Page
-
+// About
 .about-tech,
 .about-team,
 .about-timeline {
@@ -396,6 +395,87 @@
             font-weight: 700;
             color: $sky;
         }
+    }
+}
+
+// Community
+.community-open-source {
+    @include container;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    background-color: white;
+    .row {
+        @include row;
+        background: url(asset_path('community/open-source.svg')) no-repeat center top;
+        background-size: contain;
+    }
+    h2 {
+        @include col-12;
+        @include col-center;
+        text-shadow: 0px 0px 2px rgba(255,255,255,1);
+        text-align: center;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        font-size: 1.5rem;
+        line-height: 1.875rem;
+        font-family: $font-stack-bitter;
+        font-weight: 400;
+        color: $charcoal;
+    }
+}
+
+.community-development {
+    @include container;
+    padding-bottom: 1.5rem;
+    background-color: $sky;
+    .row {
+        @include row;
+    }
+    h2,
+    p {
+        @include col;
+        @include col-12;
+        color: white;
+    }
+}
+
+.development-stats {
+    @include clearfix;
+    padding-bottom: 3rem;
+    background: $charcoal url(asset_path('community/hex-pattern.gif')) center center;
+    h3 {
+        @include col;
+        @include col-12;
+        text-align: center;
+        color: $sky;
+    }
+    .stat {
+        @include col;
+        @include col-6;
+        margin-bottom: 2.25rem;
+        font-size: 3rem;
+        line-height: 3.375rem;
+        font-family: $font-stack-lato;
+        color: white;
+        text-align: center;
+        font-weight: 700;
+        span {
+            position: relative;
+            top: -1.125rem;
+            font-size: 1.5rem;
+        }
+        div {
+            font-size: 1.125rem;
+            line-height: 1.5rem;
+            font-weight: 400;
+            font-family: $font-stack-bitter;
+            text-transform: lowercase;
+            color: $sand;
+        }
+    }
+    .development-stats-action {
+        @include col-12;
+        text-align: center;
     }
 }
 

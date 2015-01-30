@@ -178,6 +178,45 @@
             }
         }
     }
+    // Community
+    .community-open-source {
+        h2 {
+            @include col-8;
+            font-size: 1.875rem;
+            line-height: 2.25rem;
+        }
+    }
+    .community-development {
+        padding-top: 2.25rem;
+        padding-bottom: 2.25rem;
+        h2,
+        p {
+            @include col-8;
+            @include col-center;
+        }
+        h2 {
+            text-align: center;
+        }
+    }
+    .development-stats {
+        padding-top: 1.125rem;
+        padding-bottom: 3.75rem;
+        .stat {
+            font-size: 3.375rem;
+            line-height: 3.75rem;
+            span {
+                font-size: 50%;
+                position: relative;
+                top: -1.5rem;
+            }
+            div {
+                font-size: 1.125rem;
+                line-height: 1.5rem;
+                font-family: $font-stack-bitter;
+                text-transform: lowercase;
+            }
+        }
+    }
     // Blog Post
     .view-blog-post {
         article {
