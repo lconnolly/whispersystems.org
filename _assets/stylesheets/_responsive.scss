@@ -39,6 +39,17 @@
             line-height: 3rem;
         }
     }
+    .home-trusted {
+        h2,
+        p {
+            @include clearfix;
+            @include col-10;
+            @include col-center;
+        }
+        .stat {
+            @include col-4;
+        }
+    }
     // Products
     .product .product-links {
         a,
@@ -108,6 +119,79 @@
             cite {
                 font-size: 1.125rem;
                 line-height: 1.5rem;
+            }
+        }
+    }
+    .home-encryption {
+        position: relative;
+        padding-top: 2.25rem;
+        padding-bottom: 2.25rem;
+        .encryption-details,
+        .encryption-graphic {
+            @include col-6;
+        }
+        .encryption-details {
+            padding-bottom: 3rem;
+        }
+        .encryption-graphic {
+            @include clearfix;
+            position: absolute;
+            right: 2%;
+            bottom: 15%;
+            width: 60%;            
+            img {
+                float: right;
+                width: auto;
+                margin: 0;
+            }
+        }
+    }
+    .home-trusted {
+        padding-top: 1.5rem;
+        background-size: auto 130%;
+        h2,
+        p {
+            @include clearfix;
+            @include col-8;
+            @include col-center;
+        }
+        .stat {
+            font-size: 3.375rem;
+            line-height: 3.375rem;
+            span {
+                font-size: 50%;
+                position: relative;
+                top: -1.5rem;
+            }
+            div {
+                font-size: 1.125rem;
+                line-height: 1.5rem;
+                font-family: $font-stack-bitter;
+                text-transform: lowercase;
+            }
+        }
+    }
+    .home-open-source {
+        position: relative;
+        padding-top: 2.25rem;
+        padding-bottom: 2.25rem;
+        .open-source-details,
+        .open-source-graphic {
+            @include col-6;
+        }
+        .open-source-details {
+            padding-bottom: 1.5rem;
+        }
+        .open-source-graphic {
+            @include clearfix;
+            position: absolute;
+            right: 2%;
+            bottom: 0;
+            width: 60%;            
+            img {
+                float: right;
+                width: auto;
+                margin: 0;
             }
         }
     }

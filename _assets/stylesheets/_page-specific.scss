@@ -99,9 +99,6 @@
     padding-top: 2rem;
     padding-bottom: 2rem;
     background-color: $off-white;
-    .row {
-        @include row;
-    }
     h2 {
         @include col;
         @include col-12;
@@ -166,6 +163,95 @@
     }
 }
 
+.home-encryption {
+    @include container;
+    padding-bottom: 2.25rem;
+    background: $charcoal;
+    .encryption-details,
+    .encryption-graphic {
+        @include col;
+        @include col-12;
+    }
+    .encryption-graphic img {
+        display: block;
+        width: 480px;
+        margin: 0 auto;
+    }
+    h2 {
+        color: white;
+    }
+    p {
+        color: $burlap;
+    }
+    .button {
+        margin-bottom: 1.5rem;
+    }
+}
+
+.home-trusted {
+    @include container;
+    padding-bottom: 2.25rem;
+    background: $burlap url(asset_path('home/world.svg')) no-repeat center center;
+    background-size: 130% auto;
+    h2,
+    p,
+    .stat {
+        @include col;
+        @include col-12;
+        text-align: center;
+        color: $charcoal;
+    }
+    p {
+        color: #555;
+    }
+    .stat {
+        padding-bottom: 1.5rem;
+        font-size: 2.25rem;
+        line-height: 2.25rem;
+        font-weight: 700;
+        letter-spacing: $letter-space-tight;
+        span {
+            position: relative;
+            top: -1.125rem;
+            font-size: 1.5rem;
+        }
+        div {
+            font-size: 1.125rem;
+            line-height: 1.125rem;
+            font-weight: 400;
+            text-transform: lowercase;
+            color: #555;
+        }
+    }
+}
+
+.home-open-source {
+    @include container;
+    background-color: $sky;
+    .open-source-details,
+    .open-source-graphic {
+        @include col;
+        @include col-12;
+    }
+    .open-source-graphic img {
+        display: block;
+        width: 480px;
+        margin: 0 auto;
+    }
+    h2 {
+        color: white;
+    }
+    p {
+        color: $sky-light;
+    }
+    .button {
+        border: 2px solid $charcoal;
+        &:hover {
+            background: $charcoal;
+        }
+    }
+}
+
 // Products
 .product {
     @include container;
@@ -173,9 +259,6 @@
     padding-bottom: $grid-margin;
     &.product-odd {
         background-color: $sand;
-    }
-    .row {
-        @include row;
     }
     .product--devices {
         display: none;
@@ -246,9 +329,6 @@
 .about-hero {
     @include container;
     background-color: $sky;
-    .row {
-        @include row;
-    }
     .about-hero--content {
         margin: 2.625rem 0;
         background: transparent url(asset_path('about/about-hero-bg.gif')) no-repeat center center;
@@ -281,9 +361,6 @@
     background-color: white;
     &:before {
         border-color: $sky transparent;
-    }
-    .row {
-        @include row;
     }
     h2,
     .about-tech--diagram,
@@ -327,9 +404,6 @@
     &:before {
         border-color: white transparent;
     }
-    .row {
-        @include row;
-    }
     h2,
     .about-team--profile {
         @include col;
@@ -361,9 +435,6 @@
     background-color: $sand;
     &:before {
         border-color: $off-white transparent;
-    }
-    .row {
-        @include row;
     }
     h2,
     ol {
@@ -405,7 +476,6 @@
     padding-bottom: 1.5rem;
     background-color: white;
     .row {
-        @include row;
         background: url(asset_path('community/open-source.svg')) no-repeat center top;
         background-size: contain;
     }
@@ -428,9 +498,6 @@
     @include container;
     padding-bottom: 1.5rem;
     background-color: $sky;
-    .row {
-        @include row;
-    }
     h2,
     p {
         @include col;
@@ -455,10 +522,9 @@
         margin-bottom: 2.25rem;
         font-size: 3rem;
         line-height: 3rem;
-        font-family: $font-stack-lato;
+        font-weight: 700;
         color: white;
         text-align: center;
-        font-weight: 700;
         span {
             position: relative;
             top: -1.125rem;
@@ -712,9 +778,6 @@
         @include container;
         padding-top: 2.25rem;
         padding-bottom: 2.25rem;
-        .row {
-            @include row;
-        }
         .contact-form {
             @include col;
             @include col-6;

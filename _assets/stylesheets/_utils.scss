@@ -45,6 +45,21 @@
     }
 }
 
+.row {
+    margin-left: -$grid-margin;
+    margin-right: -$grid-margin;
+    padding-left: $grid-gutter;
+    padding-right: $grid-gutter;
+    &:before,
+    &:after {
+        display: table;
+        content: " ";
+    }
+    &:after {
+      clear: both;
+    }
+}
+
 @mixin col {
     position: relative;
     float: left;
