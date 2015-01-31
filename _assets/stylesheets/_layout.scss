@@ -126,6 +126,10 @@ pre {
     color: $burlap;
 }
 
+.hidden {
+    display: none;
+}
+
 // Site Header
 .header {
     @include clearfix;
@@ -256,5 +260,26 @@ pre {
         font-family: $font-stack-lato;
         font-weight: 700;
         text-transform: uppercase;
+    }
+}
+
+// Generic Page layout
+.page-generic {
+    @include container;
+    .notice {
+        margin-bottom: 3rem;
+        padding: 1.5rem 1.5rem 0;
+        border: 1px solid $burlap;
+        background-color: #feffee;
+        p {
+            font-size: 85%;
+            line-height: 1.4;
+        }
+    }
+    article {
+        @include col;
+        @include col-12;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
     }
 }

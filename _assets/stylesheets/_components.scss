@@ -82,6 +82,25 @@ textarea { resize: vertical; }
     }
 }
 
+// Form Validation Alerts
+.alert {
+    padding: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.125rem;
+    border: 1px solid #ccc;
+    color: $copy;
+}
+
+.alert-success {
+    background-color: #efffee;
+    border: 1px dotted #b7e8b4;
+}
+
+.alert-error {
+    background-color: #ffefee;
+    border: 1px dotted #e3bcba;
+}
+
 // Buttons
 
 .button {

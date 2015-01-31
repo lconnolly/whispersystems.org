@@ -93,6 +93,12 @@
         @include col-4;
         margin-bottom: 0;
     }
+    .page-generic {
+        article {
+            @include col-10;
+            @include col-center;
+        }
+    }
     // Components
     .view-header h1 {
         font-size: 2.5rem;
@@ -415,6 +421,12 @@
                     }
                 }
             }
+        }
+    }
+    .page-generic {
+        article {
+            @include col-8;
+            @include col-center;
         }
     }
     // Page-Specific

@@ -1,62 +1,59 @@
 ---
 layout: root
-title: Unregister
+title: Unregister from TextSecure
+body-class: "unregister"
 ---
 
 {% javascript vendor/libphonenumber_api-compiled.js %}
 {% javascript TextSecure-Server %}
 {% javascript unregister %}
 
-<div id='unregister'>
-  <div class='container'>
-    <span class='arrow'></span>
-    <h2>Unregister from TextSecure</h2>
-  </div>
-  <div class='clearfix container thin'>
-    <div class='info'>
-      <p class='clearfix'>
-        Use this form if you've recently uninstalled TextSecure and can no
-        longer receive messages from other TextSecure users.
-      </p>
-      <p>
-        You will need to verify your number by receiving a call or SMS.
-      </p>
-    </div>
-
-    <div class='form'>
-      <div id='step1'>
-        <fieldset class='narrow'>
-          <input tabindex=1 type="text" id="number" placeholder="Enter your phone number">
-        </fieldset>
-        <fieldset class='narrow'>
-          <select id="regionCode" tabindex=2>
-            <option value="ZZ" selected>Country</option>
-          </select>
-        </fieldset>
-        <fieldset class='narrow'>
-          <button id="request-voice" disabled='disabled'>Call</button>
-          <button id="request-sms" disabled='disabled' tabindex=3>Send SMS</button>
-        </fieldset>
-      </div>
-      <div id='step2' class='hidden'>
-        <form>
-          <fieldset class='narrow'>
-            <input id="code" type="text" placeholder="Verification code" pattern="[0-9]{3}-?[0-9]{3}"
-              title="Enter your 6-digit verification code. If you did not receive a code, click 'Call' or 'Send SMS' to request a new one.">
-          </fieldset>
-          <fieldset class='narrow'>
-            <input type='submit' id="verify-code" value='Unregister'>
-          </fieldset>
-        </form>
-      </div>
-      <div id='error' class='hidden'>
-      </div>
-
-      <div id='success' class='hidden'>
-        ✓ You unregistered from TextSecure
-      </div>
-      <div class=clearfix></div>
-    </div>
-    <div class=clearfix></div>
-  </div>
-</div>
+<section class="page-generic">
+    <div class="row">
+        <article>
+            <div id='unregister'>
+                <h1>Unregister from TextSecure</h1>
+                <div class='notice'>
+                    <p>
+                      Use this form if you've recently uninstalled TextSecure and can no
+                      longer receive messages from other TextSecure users.
+                    </p>
+                    <p>
+                      You will need to verify your number by receiving a call or SMS.
+                    </p>
+                </div><!-- notice -->
+                <div class="form">
+                    <div id="step1">
+                        <div class="form-row">
+                            <label>Your Phone Number</label>
+                            <input tabindex=1 type="text" id="number" placeholder="Phone Number">
+                        </div><!-- form-row -->
+                        <div class="form-row">
+                            <select id="regionCode" tabindex=2>
+                                <option value="ZZ" selected>Country</option>
+                            </select>
+                        </div><!-- form-row -->
+                        <div class="form-row">
+                            <button id="request-voice" disabled="disabled">Call</button>
+                            <button id="request-sms" disabled="disabled" tabindex="3">Send SMS</button>
+                        </div><!-- form-row -->
+                    </div><!-- step-1 -->
+                    
+                    <div id="step2" class="hidden">
+                        <form>
+                            <div class="form-row">
+                                <input id="code" type="text" placeholder="Verification code" pattern="[0-9]{3}-?[0-9]{3}"
+                                title="Enter your 6-digit verification code. If you did not receive a code, click 'Call' or 'Send SMS' to request a new one.">
+                            </div><!-- form-row -->
+                            <div class="form-row-submit form-row">
+                                <input type='submit' id="verify-code" value='Unregister'>
+                            </div><!-- form-row -->
+                        </form>
+                    </div><!-- step-2 -->
+                    <div id='error' class='alert-error alert hidden'></div>
+                    <div id='success' class='alert-success alert hidden'>&#10003; You have successfully unregistered from TextSecure</div>
+                </div><!-- .form -->
+            </div><!-- #unregister -->
+        </article>
+    </div><!-- row -->
+</section>
