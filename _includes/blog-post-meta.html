@@ -1,0 +1,6 @@
+<p class="blog-post-meta">
+    {% if post.author != "" %}
+    <span>{{ post.author }}</span>
+    {% endif %}
+    <time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+</p>

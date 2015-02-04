@@ -454,13 +454,41 @@
         }
     }
     .view-blog-listing {
+        .view-header .rss-twitter {
+            left: 15%;
+            right: 15%;
+        }
         article {
+            padding-top: 3rem;
+            padding-bottom: 1.5rem;
+            h2 {
+                padding: 1rem 0 1.125rem;
+            }
+            .blog-post-meta {
+                span:after {
+                    display: none;
+                }
+            }
             .article-content {
                 @include col-8;
-                @include col-center;
+                .blog-post-meta {
+                    display: none;
+                }
             }
-            h2 {
-                padding-top: 1.5rem;
+            .article-info {
+                @include col;
+                @include col-3;
+                display: block;
+                padding-top: $grid-gutter;
+                text-align: right;
+                p {
+                    padding: 0.5rem 1.5rem;
+                    border-right: 1px solid $sand;
+                    span,
+                    time {
+                        display: block;
+                    }
+                }
             }
         }
     }

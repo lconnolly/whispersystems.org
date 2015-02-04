@@ -31,7 +31,8 @@
         @include clearfix;
         position: absolute;
         bottom: 0;
-        left: $grid-gutter; right: $grid-gutter;
+        left: $grid-margin;
+        right: $grid-margin;
         padding: 1.125rem 0;
         a {
             @include transition(opacity, $link-transition-timing, ease-in-out);
@@ -508,6 +509,7 @@
 
 .development-stats {
     @include clearfix;
+    @include container;
     padding-bottom: 3rem;
     background: $charcoal url(asset_path('community/hex-pattern.gif')) center center;
     h3 {
@@ -566,12 +568,15 @@
         }
         blockquote {
             p {
-                padding: 0.75rem 1.875rem;
-                border-left: 2px solid $burlap;
+                padding: 1.125rem 1.875rem;
+                border-left: 2px solid $sand;
                 font-style: italic;
+                background: #fff;
             }
         }
         p img {
+            display: block;
+            margin: 0 auto;
             border: 1px solid rgba(255,255,255,0.1);
             box-shadow: 0px 0px 3px rgba(40,40,40,0.2);
         }
@@ -593,9 +598,13 @@
         &:first-of-type {
             border-top: none;
         }
-        .article-content {
+        .article-content,
+        .article-info {
             @include col;
             @include col-12;
+        }
+        .article-info {
+            display: none;
         }
         h2 {
             padding: 0.75rem 0 0.375rem;
@@ -613,8 +622,15 @@
         .blog-post-meta {
             margin-bottom: 1.875rem;
             font-family: $font-stack-lato;
-            font-weight: 400;
-            color: lighten($shale, 40%);
+            font-weight: 700;
+            color: darken($burlap, 10%);
+            span,
+            time {
+                display: inline-block;
+            }
+            span:after {
+                content: ' –';
+            }
         }
         p,ul,ol {
             margin-bottom: 1.5rem;
